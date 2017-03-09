@@ -1,7 +1,10 @@
 var Script = function () {
 
     $.validator.setDefaults({
-        submitHandler: function() { alert("submitted!"); }
+        submitHandler: function() {
+            alert("成功提交!");
+            form.submit();
+        }
     });
 
     $().ready(function() {
@@ -11,11 +14,9 @@ var Script = function () {
         // validate signup form on keyup and submit
         $("#signupForm").validate({
             rules: {
-                firstname: "required",
-                lastname: "required",
                 username: {
                     required: true,
-                    minlength: 2
+                    minlength: 4
                 },
                 password: {
                     required: true,
@@ -26,58 +27,56 @@ var Script = function () {
                     minlength: 5,
                     equalTo: "#password"
                 },
-                email: {
+                qq:{
+                    required: true,
+                    isqq:true,
+
+                },
+                mail: {
                     required: true,
                     email: true
                 },
-                topic: {
-                    required: "#newsletter:checked",
-                    minlength: 2
-                },
-                agree: "required"
+                phone:{
+                    required: true,
+                    isphone:true,
+                }
+
+
             },
             messages: {
-                firstname: "Please enter your firstname",
-                lastname: "Please enter your lastname",
                 username: {
-                    required: "Please enter a username",
-                    minlength: "Your username must consist of at least 2 characters"
+                    required: "用户名必须",
+                    minlength: "用户名至少4个字符以上"
                 },
                 password: {
-                    required: "Please provide a password",
-                    minlength: "Your password must be at least 5 characters long"
+                    required: "密码必须",
+                    minlength: "密码至少5个字符以上"
                 },
                 confirm_password: {
-                    required: "Please provide a password",
-                    minlength: "Your password must be at least 5 characters long",
-                    equalTo: "Please enter the same password as above"
+                    required: "确认密码必须",
+                    minlength: "确认密码至少5个字符以上",
+                    equalTo: "两次输入不一致"
                 },
-                email: "Please enter a valid email address",
-                agree: "Please accept our policy"
-            }
-        });
+                mail: "请输入正确的邮箱！ַ",
+                qq:{
+                    required: "qq必须",
+                },
+                phone:{
+                    required: "手机必须",
+                }
 
-        // propose username by combining first- and lastname
-        $("#username").focus(function() {
-            var firstname = $("#firstname").val();
-            var lastname = $("#lastname").val();
-            if(firstname && lastname && !this.value) {
-                this.value = firstname + "." + lastname;
             }
-        });
-
-        //code to hide topic selection, disable for demo
-        var newsletter = $("#newsletter");
-        // newsletter topics are optional, hide at first
-        var inital = newsletter.is(":checked");
-        var topics = $("#newsletter_topics")[inital ? "removeClass" : "addClass"]("gray");
-        var topicInputs = topics.find("input").attr("disabled", !inital);
-        // show when newsletter is checked
-        newsletter.click(function() {
-            topics[this.checked ? "removeClass" : "addClass"]("gray");
-            topicInputs.attr("disabled", !this.checked);
         });
     });
+    $.validator.addMethod("isphone", function(value, element) {
+        var mobile = /^0{0,1}(13[0-9]|15[7-9]|153|156|18[7-9])[0-9]{8}$/;
+        return this.optional(element) || (mobile.test(value));
+    }, "请正确填写您的手机号码！");
+    $.validator.addMethod("isqq", function(value, element) {
+        var qq = /^\d{5,10}$/;
+        return this.optional(element) || (qq.test(value));
+    }, "请正确填写您的qq号码！");
+
 
 
 }();

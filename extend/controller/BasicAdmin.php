@@ -50,6 +50,8 @@ class BasicAdmin extends Controller {
             if (!$this->_isLogin()) {
                 $this->redirect('@admin/login');
             }
+            $user_name=session("user");
+            $this->assign('username',$user_name['username']);
         }
         # 节点访问权限检查
 //        if ($this->checkLogin && $this->checkAuth) {
