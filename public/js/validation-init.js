@@ -2,11 +2,56 @@ var Script = function () {
 
     $.validator.setDefaults({
         submitHandler: function() {
-            alert("成功提交!");
-            form.submit();
+            $.ajax({
+                type : "POST",  //提交方式
+                url : $('#signupForm').attr('action'),//路径
+                data :$('#signupForm').serialize(),
+                success:function(result){
+                    if(result==1){
+                        var div='<div class="alert alert-success fade in">'
+                            +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                            + '<i class="fa fa-times"></i>'
+                            +'</button>'
+                            +'<strong>新增成功!</strong>'
+                            +'</div>';
+                        $('#cancle_btn').click();
+                        $("#alert").after(div);
+                        window.location.href="userlist";
+                    }else if(result==2){
+                        var div='<div class="alert alert-success fade in">'
+                            +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                            + '<i class="fa fa-times"></i>'
+                            +'</button>'
+                            +'<strong>修改成功!</strong>'
+                            +'</div>';
+                        $('#cancle_btn').click();
+                        $("#alert").after(div);
+                        window.location.href="userlist";
+                    }else if(result==3){
+                        var div1='<div class="alert alert-block alert-danger fade in">'
+                            +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                            + '<i class="fa fa-times"></i>'
+                            +'</button>'
+                            +'<strong>修改失败！</strong>'
+                            +'</div>';
+                        $('#cancle_btn').click();
+                        $("#alert").after(div1);
+                    }
+                    else{
+                        var div1='<div class="alert alert-block alert-danger fade in">'
+                            +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                            + '<i class="fa fa-times"></i>'
+                            +'</button>'
+                            +'<strong>用户已经被占用！</strong>'
+                            +'</div>';
+                        $('#cancle_btn').click();
+                        $("#alert").after(div1);
+
+                    }
+                }
+            });
         }
     });
-
     $().ready(function() {
         // validate the comment form when it is submitted
         $("#commentForm").validate();
