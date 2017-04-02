@@ -1,0 +1,78 @@
+{extend name="/public/base"/}
+{block name="css"}
+<style>
+    .calendar{
+        margin-top: 70px;
+        margin-left: 250px;
+    }
+</style>
+<link href="{$Think.PUB_PATH}js/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+<link href="{$Think.PUB_PATH}css/style.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/style-responsive.css" rel="stylesheet">
+{/block}
+{block name="main"}
+<div class="container col-md-9">
+
+<section class="panel calendar">
+    <h3>出勤</h3><br/>
+    <div id="calendar" class="has-toolbar"></div>
+</section>
+{/block}
+{block name="js"}
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="{$Think.PUB_PATH}js/jquery-migrate-1.2.1.min.js"></script>
+<script src="{$Think.PUB_PATH}js/modernizr.min.js"></script>
+<script src="{$Think.PUB_PATH}js/jquery.nicescroll.js"></script>
+
+<script src="{$Think.PUB_PATH}js/fullcalendar/fullcalendar.min.js"></script>
+    <script>
+        /* initialize the calendar
+         -----------------------------------------------------------------*/
+        var date = new Date();
+        var d = date.getDate();
+        var m = date.getMonth();
+        var y = date.getFullYear();
+
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                // right: 'month,basicWeek,basicDay'
+                right:''
+            },
+            editable: false,
+            droppable: false, // this allows things to be dropped onto the calendar !!!
+            events: [
+                {volist name="days" id="day"}
+                {if condition="$day['isTravel'] eq 1"}
+                {
+                    title: '你出差哦！',
+                    start: new Date(y, m, d+{$day.day})
+                },
+                {elseif condition="$day['isLevel'] eq 1"}
+                {
+                    title: '你请假哦！',
+                        start: new Date(y, m, d+{$day.day})
+                },
+                {else/}
+                     {if condition="$day['isrecord'] eq 1"}
+                        {
+                            title: "{$day.title}",
+                            start: new Date(y, m, d+{$day.day})
+                        },
+                    {else/}
+                        {
+                            title: '你没有打卡哦！',
+                            start: new Date(y, m, d+{$day.day})
+                        },
+                    {/if}
+                {/if}
+                {/volist}
+
+            ]
+        });
+    </script>
+
+<!--common scripts for all pages-->
+<script src="{$Think.PUB_PATH}js/scripts.js"></script>
+{/block}

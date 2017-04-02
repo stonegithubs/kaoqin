@@ -1,0 +1,177 @@
+{extend name="/public/base"/}
+{block name="css"}
+<link href="{$Think.PUB_PATH}css/style.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/style-responsive.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/info.css" rel="stylesheet">
+{/block}
+{block name="main"}
+<div class="col-lg-8 info">
+    <section class="panel">
+        <header class="panel-heading">
+            <h3>
+                员工编号<font color="red"><i>{$user.eId}</i></font>个人账户信息
+            </h3>
+        </header>
+        <div class="panel-body">
+            <form class="form-horizontal" id="infoForm" role="form" method="post" action="{:url('Index/employee/updateinfo')}">
+                <div class="form-group">
+                    <label  class="col-lg-3 col-sm-3 control-label">员工名字:</label>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" name="name" value="{$emp.name}" class="form-control" placeholder="员工名字">
+                        </div>
+                    </div>
+                    <div>
+                        <label  class="col-lg-2 col-sm-3 control-label">性别:</label>
+                    </div>
+                    <div class="col-lg-3" class="form-control">
+                            <label class="radio-inline">
+                                <input type="radio" name="gender" value="0"  {if condition="$emp.gender eq 0"} checked="checked" {/if}> 未知
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="gender" value="1" {if condition="$emp.gender eq 1"} checked="checked" {/if}> 男
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="gender" value="2" {if condition="$emp.gender eq 2"} checked="checked" {/if}> 女
+                            </label>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label  class="col-lg-3 col-sm-3 control-label">职务:</label>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text"  value="{$emp.position}" class="form-control" disabled="disabled" placeholder="职务">
+                        </div>
+                    </div>
+                    <div>
+                        <label  class="col-lg-2 col-sm-3 control-label">籍贯:</label>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" name="place" value="{$emp.place}" class="form-control" placeholder="格式:广东东莞">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label  class="col-lg-3 col-sm-3 control-label">生日:</label>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" name="birthday" value="{$emp.birthday}" class="form-control" placeholder="格式:1994-10-22">
+                        </div>
+                    </div>
+                    <div>
+                        <label  class="col-lg-2 col-sm-3 control-label">学位:</label>
+                    </div>
+                    <div class="col-lg-3">
+                        <select class="form-control" name="degree">
+                            <option value="null" {if condition="$emp.degree eq ''"} selected {/if}></option>
+                            <option value="专科" {if condition="$emp.degree eq '专科'"} selected {/if}>专科</option>
+                            <option value="本科" {if condition="$emp.degree eq '本科'"} selected {/if}>本科</option>
+                            <option value="研究生" {if condition="$emp.degree eq '研究生'"} selected {/if}>研究生</option>
+                            <option value="博士" {if condition="$emp.degree eq '博士'"} selected {/if}>博士</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label  class="col-lg-3 col-sm-3 control-label">专业:</label>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" name="special" value="{$emp.special}" class="form-control" placeholder="专业">
+                        </div>
+                    </div>
+                    <div>
+                        <label  class="col-lg-2 col-sm-3 control-label">通信地址:</label>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" class="form-control" name="address" value="{$emp.address}" placeholder="通信地址">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                <label  class="col-lg-3 col-sm-3 control-label">联系电话:</label>
+                <div class="col-lg-3">
+                    <div class="iconic-input">
+                        <i class="fa fa-home"></i>
+                        <input type="text" class="form-control" name="tel" value="{$emp.tel}" placeholder="联系电话">
+                    </div>
+                </div>
+                <div>
+                    <label  class="col-lg-2 col-sm-3 control-label">邮件:</label>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iconic-input">
+                        <i class="fa fa-home"></i>
+                        <input type="text" name="mail" value="{$emp.mail}" class="form-control" placeholder="邮件">
+                    </div>
+                </div>
+
+            </div>
+
+                <div class="form-group">
+                    <label  class="col-lg-3 col-sm-3 control-label">入职时间:</label>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" class="form-control" disabled  value="{$emp.inTime}" placeholder="入职时间">
+                        </div>
+                    </div>
+                    <div>
+                        <label  class="col-lg-2 col-sm-3 control-label">部门:</label>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="iconic-input">
+                            <i class="fa fa-home"></i>
+                            <input type="text" class="form-control" value="{$emp.dId|getDeptName}" disabled="disabled" placeholder="部门">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <button class="btn btn btn-primary btn-lg sub_btn" id="sub_btn" type="button">提交</button>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+</div>
+{/block}
+{block name="js"}
+
+<script>
+    $('#sub_btn').bind('click',function () {
+        $.ajax({
+            type : "POST",  //提交方式
+            url : $('#infoForm').attr('action'),//路径
+            data :$('#infoForm').serialize(),
+            success:function(result){
+                if(result['status']!=1){
+                    alert(result['msg']);
+                }else{
+                    alert('修改成功!');
+                    window.location.href="{:url('Index/employee/index')}";
+                }
+
+            }
+        });
+
+    });
+
+</script>
+
+{/block}

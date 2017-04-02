@@ -1,0 +1,255 @@
+{extend name="/public/admin_base"/}
+{block name="title"}用户列表{/block}
+{block name="main-content"}
+<!-- page heading start-->
+<div class="page-heading">
+    <ul class="breadcrumb">
+        <li>
+            用户管理
+        </li>
+        <li>
+            用户列表
+        </li>
+    </ul>
+</div>
+<!-- page heading end-->
+<!--alert pannel-->
+<div id="alert"></div>
+<!--alert pannel-->
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <div class="panel-body">
+                    <a href="#myModal" id="addbtn" data-toggle="modal"  class="btn btn-success">
+                        新增用户
+                    </a>
+                    <a href="#myModal3" id="delalert" data-toggle="modal">
+                    </a>
+                    <table class="table  table-hover general-table">
+                        <thead>
+                        <tr>
+                            <th>用户名</th>
+                            <th>qq</th>
+                            <th>mail</th>
+                            <th>phone</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="users" id="user" empty="暂时没有数据" }
+                        <tr>
+                            <td>
+                               {$user.username}
+                            </td>
+                            <td class="hidden-phone">{$user.qq}</td>
+                            <td>{$user.mail}</td>
+                            <td>{$user.phone}</td>
+                            <td>
+                                <a class="btn btn-success btn-sm" type="button"  value="{$user.id}" onclick="edit(this)">修改</a>
+                                <a class="btn btn-warning btn-sm" type="button" id="del" href="#" value="{$user.id}" onclick="del(this)">删除</a>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                    <div class="">
+                        <ul class="pagination">
+                            {:$users->render()}
+                        </ul>
+                    </div>
+                    <!--modal-->
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="true" data-dismiss="modal" class="close" id="x_btn" type="button">×</button>
+                                    <h4 class="modal-title" id="model_title">新增用户</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="form">
+                                        <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" action="{:url('Admin/user/useradd')}">
+                                           <input type="hidden" name="id" id="hidden_id">
+                                            <div class="form-group ">
+                                                <label for="username" class="control-label col-lg-2">用户名</label>
+                                                <div class="col-lg-8">
+                                                    <input class=" form-control" id="username" name="username" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="password" class="control-label col-lg-2">密码</label>
+                                                <div class="col-lg-8">
+                                                    <input class="form-control " id="password" name="password" type="password" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="confirm_password" class="control-label col-lg-2">确认密码</label>
+                                                <div class="col-lg-8">
+                                                    <input class="form-control " id="confirm_password" name="confirm_password"  type="password" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="qq" class="control-label col-lg-2">qq</label>
+                                                <div class="col-lg-8">
+                                                    <input class=" form-control" id="qq" name="qq" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="mail" class="control-label col-lg-2">Email</label>
+                                                <div class="col-lg-8">
+                                                    <input class="form-control " id="mail" name="mail" type="email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="phone" class="control-label col-lg-2">手机</label>
+                                                <div class="col-lg-8">
+                                                    <input class="form-control " id="phone" name="phone" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-lg-offset-7 col-lg-10">
+                                                    <button class="btn btn-primary" type="submit" id="sub_btn">新增</button>
+                                                    <button class="btn btn-default" type="button" id='cancle_btn' data-dismiss="modal">取消</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal3" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="false" data-dismiss="modal" class="close" type="button" id="close_btn">×</button>
+                                    <h4 class="modal-title">警告</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    确定要执行此操作？
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" id="confirm_btn">确定</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal -->
+
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!--body wrapper end-->
+<!--footer section start-->
+<footer>
+    2017 &copy; power by Seven
+</footer>
+<!--footer section end-->
+{/block}
+{block name="js"}
+<script type="text/javascript">
+    //修改按钮取消刷新
+    $('#cancle_btn,#x_btn').on('click',function(){
+        window.location.href="{:url('Admin/user/userlist')}";
+    });
+    function timedelay(){
+        window.location.href="{:url('Admin/user/userlist')}";
+    }
+    // ajax删除和修改
+    function del(obj){
+        //判断是否确定删除
+       $('#delalert').click();
+       $('#confirm_btn').on('click',function(){
+           var userid=$(obj).attr('value');
+           //使用ajax
+           $.ajax({
+               type : "POST",  //提交方式
+               url : "{:url('Admin/user/userdel')}",//路径
+               data : {
+                   "id" : userid
+               },//数据，这里使用的是Json格式进行传输
+               success : function(result){
+                   if(result==1){
+                       var div='<div class="alert alert-success fade in">'
+                               +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                               + '<i class="fa fa-times"></i>'
+                               +'</button>'
+                               +'<strong>删除成功!</strong>'
+                               +'</div>';
+                       $('#close_btn').click();
+                       $("#alert").after(div);
+                       setTimeout("timedelay()","1500");
+                   }else if(result==2){
+                       $('#close_btn').click();
+                       var div1='<div class="alert alert-block alert-danger fade in">'
+                               +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                               + '<i class="fa fa-times"></i>'
+                               +'</button>'
+                               +'<strong>当前用户正在登录不可删除</strong>'
+                               +'</div>';
+                       $("#alert").after(div1);
+                       setTimeout("timedelay()","1500");
+
+                   }
+                   else{
+                       $('#close_btn').click();
+                       alert("执行出错！");
+                   }
+               },
+           });
+       });
+
+    }
+    function edit(obj){
+        var userid=$(obj).attr('value');
+
+        //根据id获取数据
+        $.ajax({
+            type: "POST",  //提交方式
+            url: "{:url('Admin/user/useredit')}",//路径
+            data: {
+                "id": userid,
+                "type":"post",
+            },//数据，这里使用的是Json格式进行传输
+            success:function(data){
+                if(data==2){
+                    var div1='<div class="alert alert-block alert-danger fade in">'
+                            +'<button class="close close-sm" type="button" data-dismiss="alert">'
+                            + '<i class="fa fa-times"></i>'
+                            +'</button>'
+                            +'<strong>当前用户正在登录不可编辑</strong>'
+                            +'</div>';
+                    $("#alert").after(div1);
+                }else{
+                    $('#model_title').html("修改用户");
+                    $('#sub_btn').html("修改");
+                    $('#signupForm').attr('action',"{:url('Admin/user/useredited')}");
+                    $('#addbtn').click();
+                    $('#username').attr("disabled",true);
+                    var json = JSON.parse(data.res);
+                    $.each(json,function (key,value) {
+                        $('#username').attr('value',value.username);
+                        $('#password').attr('value','');
+                        $('#confirm_password').attr('value','');
+                        $('#qq').attr('value',value.qq);
+                        $('#mail').attr('value',value.mail);
+                        $('#hidden_id').attr('value',value.id);
+                        $('#phone').attr('value',value.phone);
+                    });
+                }
+            }
+        });
+    }
+
+</script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script src="{$Think.PUB_PATH}js/validation-init.js"></script>
+{/block}

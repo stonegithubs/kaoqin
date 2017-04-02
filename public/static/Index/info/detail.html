@@ -1,0 +1,33 @@
+{extend name="/public/base"/}
+{block name="css"}
+<style>
+    .info{
+        margin-top: 70px;
+        margin-left: 220px;
+        margin-bottom: 190px;
+    }
+</style>
+{/block}
+{block name="main"}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="container">
+    <section class="mail-list col-md-7 info">
+        <div class="mail-sender">
+            <div class="row">
+                <div class="col-md-11">
+                    <h3>{$info['title']}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>发布时间：</h5><h5> {$info['addTime']}</h5>
+                </div>
+            </div>
+        </div>
+        <div class="view-mail">
+            <blockquote>
+                <p>{$info['content']}</p>
+        </div>
+    </section>
+</div>
+{/block}

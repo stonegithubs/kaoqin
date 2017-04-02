@@ -1,0 +1,124 @@
+{extend name="/public/admin_base"/}
+{block name="css"}
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datepicker/css/datepicker-custom.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-timepicker/css/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+
+{/block}
+{block name="title"}出勤状况{/block}
+{block name="main-content"}
+<!-- page heading start-->
+<div class="page-heading">
+    <ul class="breadcrumb">
+        <li>
+            考勤管理
+        </li>
+        <li>
+            出勤状况
+        </li>
+    </ul>
+</div>
+<!-- page heading end-->
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    职员查询
+                </header>
+                <div class="panel-body">
+                    <form class="form-inline" role="form" method="get" action="">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">姓名</label>
+                            <input type="text" class="form-control" name="name" id="name" value="{$select.name}" placeholder="姓名">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="dId">部门</label>
+                            <select id="dId" name="dId" class="form-control">
+                                <option value="-1" {eq name="select.dId" value="-1"}selected{/eq}>全部</option>
+                                {volist name="depts" id="dept"}
+                                <option value="{$dept.dId}" {eq name="dept.dId" value="$select.dId"}selected{/eq}>{$dept.dName}</option>
+                                {/volist}
+                                <option value="0" {eq name="select.dId" value="0"}selected{/eq}>暂无部门</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">查询</button>
+                    </form>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="directory-info-row">
+        <div class="row">
+            {volist name='employees' id='employee'}
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <h4>{$employee.name}<span class="text-muted small">-{$employee.dName}-{$employee.position}</span></h4>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="thumb media-object" src="{$employee.logo|default=($Think.PUB_PATH.'images/photos/user1.png')}" alt="">
+                                </a>
+                                <div class="media-body">
+                                    <address>
+                                        {eq name='employee.isSchedule' value='0'}
+                                            <strong>今天无排班</strong>
+                                        {else/}
+                                        {switch name='employee.record'}
+                                            {case value=0}
+                                                <strong>今日未打卡</strong><br>
+                                            {/case}
+                                            {case value=1}
+                                                <strong>上班打卡</strong><br>
+                                                上班时间：{$employee.morning.addTime}<br>
+                                            {/case}
+                                            {case value=2}
+                                                <strong>下班打卡</strong><br>
+                                                上班时间：{$employee.morning.addTime}<br>
+                                                下班时间：{$employee.night.addTime}<br>
+                                            {/case}
+                                        {/switch}
+
+                                        {/eq}
+
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {/volist}
+        </div>
+    </div>
+    <div class="page">
+        {$page}
+    </div>
+
+</div>
+<!--body wrapper end-->
+<!--footer section start-->
+<footer>
+    2017 &copy; power by Alan
+</footer>
+<!--footer section end-->
+{/block}
+{block name="js"}
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script src="{$Think.PUB_PATH}js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script src="{$Think.PUB_PATH}js/pickers-init.js"></script>
+<script type="text/javascript">
+
+</script>
+
+
+{/block}

@@ -1,0 +1,60 @@
+{extend name="/public/base"/}
+{block name="css"}
+<style>
+    .list{
+        margin-top: 70px;
+        margin-left: 250px;
+    }
+</style>
+<link href="{$Think.PUB_PATH}css/style.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/style-responsive.css" rel="stylesheet">
+{/block}
+{block name="main"}
+<section class="panel list">
+    <header class="panel-heading">
+        <h3>出差列表</h3>
+    </header>
+    <div class="panel-body">
+        <div class="col-sm-9">
+            <section class="panel">
+                <a href="{:url('Index/leave/index')}">
+                </a>
+                <header class="panel-heading">
+                    出差记录
+                </header>
+
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>开始时间</th>
+                            <th>结束时间</th>
+                            <th>备注</th>
+                            <th>状态</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="lists" id="vo" key="k" empty="暂时没有数据"}
+                        <tr>
+                            <td>{$k}</td>
+                            <td>{$vo.startTime|dateFormat}</td>
+                            <td>{$vo.endTime|dateFormat}</td>
+                            <td>{$vo.remark}</td>
+                            <td>{$vo.status|getTravelState}</td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="">
+                    <ul class="pagination">
+                        {:$lists->render();}
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+{/block}

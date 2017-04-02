@@ -1,0 +1,270 @@
+{extend name="/public/admin_base"/}
+{block name="css"}
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datepicker/css/datepicker-custom.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-timepicker/css/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+{/block}
+{block name="title"}员工列表{/block}
+{block name="main-content"}
+<!-- page heading start-->
+<div class="page-heading">
+    <ul class="breadcrumb">
+        <li>
+            基本信息
+        </li>
+        <li>
+            员工信息
+        </li>
+    </ul>
+</div>
+<!-- page heading end-->
+
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    职员查询
+                </header>
+                <div class="panel-body">
+                    <form class="form-inline" role="form" method="get" action="">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">姓名</label>
+                            <input type="text" class="form-control" name="name" id="name" value="{$select.name}" placeholder="姓名">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="dId">部门</label>
+                            <select id="dId" name="dId" class="form-control">
+                                <option value="-1" {eq name="select.dId" value="-1"}selected{/eq}>全部</option>
+                                {volist name="depts" id="dept"}
+                                <option value="{$dept.dId}" {eq name="dept.dId" value="$select.dId"}selected{/eq}>{$dept.dName}</option>
+                                {/volist}
+                                <option value="0" {eq name="select.dId" value="0"}selected{/eq}>暂无部门</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">查询</button>
+                    </form>
+
+                </div>
+            </section>
+        </div>
+
+        <div class="col-sm-12">
+            <section class="panel">
+                <div class="panel-body">
+                    <button id="addbtn" class="btn btn-success">
+                        新增职员
+                    </button>
+                    <a href="#myModal3" id="delalert" data-toggle="modal">
+                    </a>
+                    <table class="table  table-hover general-table">
+                        <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>员工名字</th>
+                            <th>联系方式</th>
+                            <th>部门</th>
+                            <th>职位</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="data" id="user" empty="暂时没有数据" }
+                        <tr data-id="{$user.eId}" data-position="{$user.position}" data-name="{$user.name}" data-did="{$user.dId}" data-tel="{$user.tel}" data-intime="{$user.inTime}">
+                            <td>{$user.eId}</td>
+                            <td>{$user.name|default="未填写"}</td>
+                            <td class="hidden-phone">{$user.tel|default="未填写"}</td>
+                            <td>{$user.dName|default="未填写"}</td>
+                            <td>{$user.position|default="未填写"}</td>
+                            <td>
+                                <a class="btn btn-success btn-sm edit" type="button"  value="{$user.eId}" onclick="edit(this)" data-toggle="modal" href="#myModal">修改</a>
+                                <a class="btn btn-warning btn-sm" type="button" id="del" href="#" value="{$user.eId}" onclick="del(this)">删除</a>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                    <div class="page">
+                        {$data->render()}
+                    </div>
+
+
+                    <!--modal-->
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                                    <h4 class="modal-title" id="model_title">新增职员</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form">
+                                        <form class="cmxform form-horizontal adminex-form" id="signUpFrom" method="post" action="{:url('Admin/employee/add')}">
+                                            <input type="hidden" name="eId" id="hidden_id">
+                                            <div class="form-group ">
+                                                <label for="name" class="control-label col-lg-2">员工姓名</label>
+                                                <div class="col-lg-8">
+                                                    <input class=" form-control" id="name" name="name" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="position" class="control-label col-lg-2">职务</label>
+                                                <div class="col-lg-8">
+                                                    <input class=" form-control" id="position" name="position" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="tel" class="control-label col-lg-2">联系方式</label>
+                                                <div class="col-lg-8">
+                                                    <input class="form-control " id="tel" name="tel" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label   class="control-label col-lg-2">部门</label>
+                                                <div class="col-lg-8">
+                                                    <select name="dId" class="form-control m-bot15">
+                                                        <option value="0">暂无部门</option>
+                                                        {volist name="depts" id="dept"}
+                                                            <option value="{$dept.dId}">{$dept.dName}</option>
+                                                        {/volist}
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-lg-2">入职时间</label>
+                                                <div class="col-lg-6 ">
+                                                    <input class="form-control form-control-inline input-medium default-date-picker" size="16" id="inTime" name="inTime" type="text" value="">
+                                                    <span class="help-block">请选择一个日期</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-lg-offset-7 col-lg-10">
+                                                    <button class="btn btn-primary" type="submit" id="sub_btn">修改</button>
+                                                    <button class="btn btn-default" type="button" id='cancle_btn' data-dismiss="modal">取消</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal3" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="false" data-dismiss="modal" class="close" type="button" id="close_btn">×</button>
+                                    <h4 class="modal-title">警告</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="hidden" name="eId" id="delId">
+                                    确定要执行此操作？
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" id="confirm_btn">确定</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal -->
+
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!--body wrapper end-->
+<!--footer section start-->
+<footer>
+    2017 &copy; power by Alan
+</footer>
+<!--footer section end-->
+{/block}
+{block name="js"}
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script src="{$Think.PUB_PATH}js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script src="{$Think.PUB_PATH}js/pickers-init.js"></script>
+<script type="text/javascript">
+
+
+    // ajax删除和修改
+    function del(obj){
+        //判断是否确定删除
+        $('#delId').val($(obj).closest('tr').data('id'))
+        $('#delalert').click();
+    }
+
+    $('#confirm_btn').on('click',function(){
+        var eId = $('#delId').val();
+        //使用ajax
+        $.ajax({
+            type : "POST",  //提交方式
+            url : "{:url('Admin/employee/del')}",//路径
+            data : {
+                "eId" : eId
+            },//数据，这里使用的是Json格式进行传输
+            success : function(data){
+                if(data.status!=0){
+
+                    $('#myModal3').modal('hide');
+                    $(".alert-success strong").html(data.msg);
+                    successAlert.show();
+                    dangerAlert.hide();
+                    setTimeout("back()","1500");
+                }else{
+                    $('#myModal3').modal('hide');
+                    $(".alert-danger strong").html(data.msg);
+                    successAlert.hide();
+                    dangerAlert.show();
+                }
+            }
+        });
+    });
+
+    function edit(obj){
+        var currData = $(obj).closest('tr').data();
+        $('#model_title').html("修改信息");
+        $('#sub_btn').html("修改");
+        $('#name').val(currData.name);
+        $('#tel').val(currData.tel);
+        $('#position').val(currData.position);
+        $('#hidden_id').val(currData.id);
+        $('#inTime').val(currData.intime)
+        $('#dId').val(currData.did);
+    }
+
+    $('#addbtn').click(function(){
+        if(confirm('是否新增一个职员账号？')){
+            $.get('addOne',function(data){
+                if(data.status!=0){
+                    $(".alert-success strong").html(data.msg);
+                    successAlert.show();
+                    dangerAlert.hide();
+                    setTimeout("back()","1500");
+                }else{
+                    $(".alert-danger strong").html(data.msg);
+                    successAlert.hide();
+                    dangerAlert.show();
+                }
+            })
+        }else{
+        }
+    })
+
+
+
+</script>
+
+
+{/block}

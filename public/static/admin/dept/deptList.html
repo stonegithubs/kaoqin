@@ -1,0 +1,184 @@
+{extend name="/public/admin_base"/}
+{block name="css"}
+{/block}
+{block name="title"}部门列表{/block}
+{block name="main-content"}
+<!-- page heading start-->
+<div class="page-heading">
+    <ul class="breadcrumb">
+        <li>
+            基本信息
+        </li>
+        <li>
+            部门信息
+        </li>
+    </ul>
+</div>
+<!-- page heading end-->
+
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <div class="panel-body">
+                    <button id="addbtn" class="btn btn-success" href="#myModal" data-toggle="modal">
+                        新增部门
+                    </button>
+                    <a href="#myModal3" id="delalert" data-toggle="modal">
+                    </a>
+                    <table class="table  table-hover general-table">
+                        <thead>
+                        <tr>
+                            <th width="10%">编号</th>
+                            <th width="15%">部门</th>
+                            <th width="10%">部门人数</th>
+                            <th width="40%">部门描述</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="depts" id="dept" empty="暂时没有数据" }
+                        <tr data-id="{$dept.dId}" data-description="{$dept.description}" data-name="{$dept.dName}">
+                            <td>{$dept.dId}</td>
+                            <td>{$dept.dName|default="未填写"}</td>
+                            <td>{$dept.sum|default=0}</td>
+                            <td>{$dept.description|default="未填写"}</td>
+                            <td>
+                                <a class="btn btn-success btn-sm" type="button"   onclick="edit(this)" data-toggle="modal" href="#myModal" >修改</a>
+                                <a class="btn btn-warning btn-sm" type="button" id="del" href="#"  onclick="del(this)">删除</a>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                    <div class="page">
+                        {$depts->render()}
+                    </div>
+                    <!--modal-->
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                                    <h4 class="modal-title" id="model_title">新增部门</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form">
+                                        <form class="cmxform form-horizontal adminex-form" id="signUpFrom" method="post" action="{:url('Admin/Dept/add')}">
+                                            <input type="hidden" name="dId" id="hidden_id">
+                                            <div class="form-group ">
+                                                <label for="dName" class="control-label col-lg-2">部门名称</label>
+                                                <div class="col-lg-6">
+                                                    <input class=" form-control" id="dName" name="dName" type="text" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group ">
+                                                <label for="description" class="control-label col-lg-2">部门描述</label>
+                                                <div class="col-lg-8">
+                                                    <textarea rows="6" class="form-control" id="description" name="description"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-lg-offset-7 col-lg-10">
+                                                    <button class="btn btn-primary" type="submit" id="sub_btn">新增</button>
+                                                    <button class="btn btn-default" type="button" id='cancle_btn' data-dismiss="modal">取消</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal3" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="false" data-dismiss="modal" class="close" type="button" id="close_btn">×</button>
+                                    <h4 class="modal-title">警告</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="hidden" name="eId" id="delId">
+                                    确定要执行此操作？
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" id="confirm_btn">确定</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal -->
+
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!--body wrapper end-->
+<!--footer section start-->
+<footer>
+    2017 &copy; power by Alan
+</footer>
+<!--footer section end-->
+{/block}
+{block name="js"}
+<script src="{$Think.PUB_PATH}js/pickers-init.js"></script>
+<script type="text/javascript">
+
+    // ajax删除和修改
+    function del(obj){
+        //判断是否确定删除
+        $('#delId').val($(obj).closest('tr').data('id'))
+        $('#delalert').click();
+    }
+
+    $('#confirm_btn').on('click',function(){
+        var dId = $('#delId').val();
+        //使用ajax
+        $.ajax({
+            type : "POST",  //提交方式
+            url : "{:url('Admin/Dept/del')}",//路径
+            data : {
+                "dId" : dId
+            },//数据，这里使用的是Json格式进行传输
+            success : function(data){
+                if(data.status!=0){
+                    $('#myModal3').modal('hide')
+                    $(".alert-success strong").html(data.msg);
+                    successAlert.show();
+                    dangerAlert.hide();
+                    setTimeout("back()","1500");
+
+                }else{
+                    $('#myModal3').modal('hide')
+                    $(".alert-danger strong").html(data.msg);
+                    successAlert.hide();
+                    dangerAlert.show();
+                }
+            }
+        });
+    });
+
+    function edit(obj){
+        var currData = $(obj).closest('tr').data();
+        $('#model_title').html("修改信息");
+        $('#sub_btn').html("修改");
+        $('#dName').val(currData.name);
+        $('#description').val(currData.description);
+        $('#hidden_id').val(currData.id);
+    }
+
+    $('#addbtn').click(function(){
+        $('#model_title').html("新增部门");
+        $('#sub_btn').html("添加");
+        $('#dName').val('');
+        $('#description').val('');
+        $('#hidden_id').val('');
+    })
+
+</script>
+
+
+{/block}

@@ -1,0 +1,126 @@
+{extend name="/public/admin_base"/}
+{block name="css"}
+
+{/block}
+{block name="title"}公告列表{/block}
+{block name="main-content"}
+<!-- page heading start-->
+<div class="page-heading">
+    <ul class="breadcrumb">
+        <li>
+            公告列表
+        </li>
+    </ul>
+</div>
+<!-- page heading end-->
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <div class="panel-body">
+                    <a id="addbtn" class="btn btn-success" href="detail">
+                        新增公告
+                    </a>
+                    <a href="#myModal3" id="delalert" data-toggle="modal">
+                    </a>
+                    <table class="table  table-hover general-table">
+                        <thead>
+                        <tr>
+                            <th width="10%">编号</th>
+                            <th width="15%">标题</th>
+                            <th width="50%">正文</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {volist name="advs" id="adv" empty="暂时没有数据" }
+                        <tr data-id="{$adv.advId}">
+                            <td>{$adv.advId}</td>
+                            <td>{$adv.title|default="未填写"}</td>
+                            <td>{:substr(strip_tags($adv.content),0,80)}</td>
+                            <td>
+                                <a class="btn btn-success btn-sm" type="button"  href="detail?advId={$adv.advId}" >修改</a>
+                                <button class="btn btn-warning btn-sm" type="button" onclick="del(this)">删除</button>
+                            </td>
+                        </tr>
+                        {/volist}
+                        </tbody>
+                    </table>
+                    <div class="page">
+                        {$advs->render()}
+                    </div>
+                    <!--modal-->
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal3" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button aria-hidden="false" data-dismiss="modal" class="close" type="button" id="close_btn">×</button>
+                                    <h4 class="modal-title">警告</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="hidden" name="advId" id="delId">
+                                    确定要执行此操作？
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" id="confirm_btn">确定</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal -->
+
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!--body wrapper end-->
+<!--footer section start-->
+<footer>
+    2017 &copy; power by Alan
+</footer>
+<!--footer section end-->
+{/block}
+{block name="js"}
+<script src="{$Think.PUB_PATH}js/pickers-init.js"></script>
+<script type="text/javascript">
+
+    // ajax删除和修改
+    function del(obj){
+        //判断是否确定删除
+        $('#delId').val($(obj).closest('tr').data('id'))
+        $('#delalert').click();
+    }
+
+    $('#confirm_btn').on('click',function(){
+        var advId = $('#delId').val();
+        //使用ajax
+        $.ajax({
+            type : "POST",  //提交方式
+            url : "{:url('Admin/Adv/del')}",//路径
+            data : {
+                "advId" : advId
+            },//数据，这里使用的是Json格式进行传输
+            success : function(data){
+                if(data.status!=0){
+                    $('#myModal3').modal('hide')
+                    $(".alert-success strong").html(data.msg);
+                    successAlert.show();
+                    dangerAlert.hide();
+                    setTimeout("back()","1500");
+
+                }else{
+                    $('#myModal3').modal('hide')
+                    $(".alert-danger strong").html(data.msg);
+                    successAlert.hide();
+                    dangerAlert.show();
+                }
+            }
+        });
+    });
+
+
+</script>
+
+{/block}

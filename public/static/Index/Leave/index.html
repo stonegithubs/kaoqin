@@ -1,0 +1,59 @@
+{extend name="/public/base"/}
+{block name="css"}
+<link href="{$Think.PUB_PATH}css/style.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/style-responsive.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/passwd.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datepicker/css/datepicker-custom.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-timepicker/css/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+{/block}
+{block name="main"}
+<section class="panel passwd">
+    <header class="panel-heading">
+        <h3>申请请假</h3>
+
+    </header>
+    <div class="panel-body">
+        <font color="red" style="margin-left: 60px">注：请假最多只能请三天！</font><br/>
+        <form role="form" class="form-horizontal adminex-form" id="leave_Form" method="post" action="{:url('Index/leave/commit')}" redireturl="{:url('Index/index')}">
+            <div class="form-group has-success">
+                <label for="starttime" class="col-lg-2 control-label">开始时间</label>
+                <div class="col-lg-3">
+                    <input type="text" name="starttime" placeholder="开始时间" id="starttime" class="form-control form-control-inline input-medium default-date-picker">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label for="endtime" class="col-lg-2 control-label">结束时间</label>
+                <div class="col-lg-3">
+                    <input type="text" name="endtime" placeholder="结束时间" id="endtime" class="form-control form-control-inline input-medium default-date-picker">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label for="mark" class="col-lg-2 control-label">请假原因</label>
+                <div class="col-lg-3">
+                    <textarea rows="3" class="form-control" id="mark" name="mark"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-3">
+                    <button class="btn btn-primary" type="submit">提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+{/block}
+{block name="js"}
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/leave.js"></script>
+<script src="{$Think.PUB_PATH}js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script src="{$Think.PUB_PATH}js/pickers-init.js"></script>
+{/block}

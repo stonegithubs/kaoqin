@@ -1,0 +1,41 @@
+{extend name="/public/base"/}
+{block name="css"}
+<link href="{$Think.PUB_PATH}css/signin.css" rel="stylesheet">
+{/block}
+{block name="main"}
+<div class="container">
+
+    <form class="form-signin" id="form-signin" method="post" action="{:url('index/login/login')}">
+        <h2 class="form-signin-heading">用户登录</h2>
+        <label for="empId" class="sr-only">count</label>
+        <input  type="text" id="empId" name="empId" class="form-control" placeholder="员工编号">
+        <label for="password" class="sr-only">密码</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="密码">
+        <label for="validte_code" class="sr-only">验证码</label>
+        <input type="text" id="validte_code" name="validte_code" class="form-control" placeholder="验证码">
+        <img src="{:captcha_src()}" class="captcha" alt="captcha" />
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住我
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+    </form>
+
+</div> <!-- /container -->
+{/block}
+{block name="js"}
+<script>
+    //刷新验证码
+    var captcha = $(".captcha").attr("src");
+    $(".captcha").click(function(){
+        if( captcha.indexOf('?')>0){
+            $(".captcha").attr("src", captcha+'&random='+Math.random());
+        }else{
+            $(".captcha").attr("src", captcha.replace(/\?.*$/,'')+'?'+Math.random());
+        }
+    });
+</script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script src="{$Think.PUB_PATH}js/login_valite.js"></script>
+{/block}

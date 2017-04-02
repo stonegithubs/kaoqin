@@ -1,0 +1,306 @@
+{extend name="/public/admin_base"/}
+{block name="css"}
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datepicker/css/datepicker-custom.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-timepicker/css/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="{$Think.PUB_PATH}js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+<!--icheck-->
+<link href="{$Think.PUB_PATH}js/iCheck/skins/minimal/minimal.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/minimal/red.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/minimal/green.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/minimal/blue.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/minimal/yellow.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/minimal/purple.css" rel="stylesheet">
+
+<link href="{$Think.PUB_PATH}js/iCheck/skins/square/square.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/square/red.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/square/green.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/square/blue.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/square/yellow.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/square/purple.css" rel="stylesheet">
+
+<link href="{$Think.PUB_PATH}js/iCheck/skins/flat/grey.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/flat/red.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/flat/green.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/flat/blue.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/flat/yellow.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}js/iCheck/skins/flat/purple.css" rel="stylesheet">
+<style>
+    .yuan{
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+</style>
+{/block}
+{block name="title"}排班列表{/block}
+{block name="main-content"}
+<!-- page heading start-->
+<div class="page-heading">
+    <ul class="breadcrumb">
+        <li>
+            考勤管理
+        </li>
+        <li>
+            排班列表
+        </li>
+    </ul>
+</div>
+<!-- page heading end-->
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    会员查询
+                </header>
+                <div class="panel-body">
+                    <form class="form-inline" role="form" method="get" action="">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">姓名</label>
+                            <input type="text" class="form-control" name="name" id="name" value="{$select.name}" placeholder="姓名">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="dId">部门</label>
+                            <select id="dId" name="dId" class="form-control">
+                                <option value="-1" {eq name="select.dId" value="-1"}selected{/eq}>全部</option>
+                                {volist name="depts" id="dept"}
+                                <option value="{$dept.dId}" {eq name="dept.dId" value="$select.dId"}selected{/eq}>{$dept.dName}</option>
+                                {/volist}
+                                <option value="0" {eq name="select.dId" value="0"}selected{/eq}>暂无部门</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">查询</button>
+                    </form>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="directory-info-row">
+        <div class="row">
+            {volist name='employees' id='employee'}
+            <div class="col-md-6 col-sm-6" >
+                <div class="panel">
+                    <div class="panel-body">
+                        <h4>{$employee.name}<span class="text-muted small">-{$employee.dName}-{$employee.position}</span></h4>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="thumb media-object" src="{$employee.logo|default=($Think.PUB_PATH.'images/photos/user1.png')}" alt="">
+                            </a>
+                            <div class="media-body" data-eid="{$employee.eId}" data-name="{$employee.name}">
+                                <address data-eid="{$employee.eId}" data-name="{$employee.name}">
+                                    {eq name='employee.isSchedule' value='0'}
+                                    <strong>本周还无排班信息</strong>
+                                    <a data-eid="{$employee.eId}" data-name="{$employee.name}" class="text-info  btn btn-default addThisWeek" data-target="#addModal" data-toggle="modal">添加本周排班信息</a><br>
+                                    {else/}
+                                    <strong>本周排班记录：</strong><br>
+                                        {$employee.weeks}<br>
+                                    {/eq}
+                                    {eq name='employee.nextSchedule' value='0'}
+                                    <strong>下周还无排班信息</strong>
+                                    <a data-eid="{$employee.eId}" data-name="{$employee.name}" class="text-info btn btn-default addNextWeek" data-target="#addModal" data-toggle="modal">添加下周排班信息</a><br>
+                                    {else/}
+                                    <strong>下周排班记录：</strong><br>
+                                    {$employee.nextWeeks}<br>
+                                    {/eq}
+                                    <a data-eid="{$employee.eId}" data-name="{$employee.name}" class="text-info btn btn-default editSchedule" data-target="#editModal" data-toggle="modal">修改排班</a>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/volist}
+        </div>
+    </div>
+    <div class="page">
+        {$page}
+    </div>
+
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="addModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4 class="modal-title" id="model_title">添加排班</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form">
+                        <form class="cmxform form-horizontal adminex-form" id="signUpFrom" method="post" action="{:url('Admin/schedule/add')}">
+                            <input type="hidden" name="eId" id="hidden_id">
+                            <input type="hidden" name="time" value="">
+                            <div class="form-group ">
+                                <label for="name" class="control-label col-lg-2">员工姓名:</label>
+                                <div class="col-lg-4">
+                                    <label class="control-label" id="name" ></label>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="panel-body">
+                                    <ul class="weather-forecast ">
+                                        <li class="first"><label for="day1"><a id="mo" href="javascript:;" ><strong>周一</strong><span class="icheck"><div class="minimal-blue single-row">
+                                                <div class="checkbox "><input type="checkbox" id="day1" name="day[]" value="1" ></div></div>
+                                            </span></a></label></li>
+                                        <li><label for="day2"><a id="tu" href="javascript:;" ><strong>周二</strong><span class="icheck">
+                                                <div class="minimal-blue single-row">
+                                                    <div class="checkbox "><input type="checkbox" id="day2" name="day[]" value="2" ></div></div>
+                                            </span></a></label></li>
+                                        <li><label for="day3"><a id="we" href="javascript:;" ><strong>周三</strong><span class="icheck">
+                                                <div class="minimal-blue single-row">
+                                                    <div class="checkbox "><input type="checkbox" id="day3" name="day[]" value="3" ></div></div>
+                                            </span></a></label></li>
+                                        <li><label for="day4"><a id="th" href="javascript:;" ><strong>周四</strong><span class="icheck">
+                                                <div class="minimal-blue single-row">
+                                                    <div class="checkbox "><input type="checkbox" id="day4" name="day[]" value="4" ></div></div>
+                                            </span></a></label></li>
+                                        <li><label for="day5"><a id="fr" href="javascript:;" ><strong>周五</strong><span class="icheck">
+                                                <div class="minimal-blue single-row">
+                                                    <div class="checkbox "><input type="checkbox" id="day5" name="day[]" value="5"></div></div>
+                                            </span></a></label></li>
+                                        <li><label for="day6"><a id="sa" href="javascript:;" ><strong>周六</strong><span class="icheck">
+                                                <div class="minimal-blue single-row">
+                                                    <div class="checkbox "><input type="checkbox" id="day6" name="day[]" value="6" ></div></div>
+                                            </span></a></label></li>
+                                        <li class="last"><label for="day2"><a id="su" href="javascript:;" ><strong>周日</strong><span class="icheck">
+                                                <div class="minimal-blue single-row">
+                                                    <div class="checkbox "><input type="checkbox" id="day7" name="day[]" value="0" ></div></div>
+                                            </span></a></label></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-offset-7 col-lg-10">
+                                    <button class="btn btn-primary" type="submit" id="sub_btn">添加</button>
+                                    <button class="btn btn-default" type="button" id='cancle_btn' data-dismiss="modal">取消</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="editModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4 class="modal-title" >修改排班</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form">
+                        <form class="cmxform form-horizontal adminex-form" id="editForm" method="post" action="{:url('Admin/Schedule/edit')}">
+                            <input type="hidden" name="eId" >
+                            <div class="form-group ">
+                                <label for="name" class="control-label col-lg-3">员工姓名:</label>
+                                <div class="col-lg-4">
+                                    <label class="control-label name"  ></label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-lg-3">排班日期：</label>
+                                <div class="col-lg-6 ">
+                                    <input class="form-control form-control-inline input-medium default-date-picker" size="16" id="inTime" name="day" type="text" value="">
+                                    <span class="help-block">请选择一个日期</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-lg-3">排班：</label>
+                                <div class="col-lg-6 icheck">
+                                    <div class="minimal-blue single-row">
+                                        <div class="radio ">
+                                            <input tabindex="3" type="radio"  name="status" value="1">
+                                            <label>是</label>
+                                        </div>
+                                    </div>
+                                    <div class="minimal-red single-row">
+                                        <div class="radio ">
+                                            <input tabindex="3" type="radio"  name="status" checked value="0">
+                                            <label>否</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-offset-7 col-lg-10">
+                                    <button class="btn btn-primary" type="submit" >修改</button>
+                                    <button class="btn btn-default" type="button"  data-dismiss="modal">取消</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--body wrapper end-->
+<!--footer section start-->
+<footer>
+    2017 &copy; power by Alan
+</footer>
+<!--footer section end-->
+{/block}
+{block name="js"}
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script src="{$Think.PUB_PATH}js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script src="{$Think.PUB_PATH}js/pickers-init.js"></script>
+<!--icheck -->
+<script src="{$Think.PUB_PATH}js/iCheck/jquery.icheck.js"></script>
+<script src="{$Think.PUB_PATH}js/icheck-init.js"></script>
+<script type="text/javascript">
+
+    var eIdInput = $('#addModal').find('[name=eId]');
+    var nameInput = $('#addModal').find('#name');
+    var timeInput = $('#addModal').find('[name=time]');
+    $('.addThisWeek').on('click',function(){
+        var eId = $(this).data('eid');
+        var name = $(this).data('name');
+        eIdInput.val(eId);
+        nameInput.html(name);
+        timeInput.val(1);
+    })
+    $('.addNextWeek').on('click',function(){
+        var eId = $(this).data('eid');
+        var name = $(this).data('name');
+        eIdInput.val(eId);
+        nameInput.html(name);
+        timeInput.val(2);
+    })
+    $('.editSchedule').on('click',function(){
+        var eId = $(this).data('eid');
+        var name = $(this).data('name');
+        console.log(eId);
+        console.log(name);
+        $('#editModal').find('[name=eId]').val(eId);
+        $('#editModal').find('.name').html(name);
+    })
+
+    $('#editForm').submit(function(event){
+        event.preventDefault();
+        $(this).parents('.modal').modal('hide');
+        var self = $(this);
+        my_ajax(self);
+    })
+</script>
+
+{/block}

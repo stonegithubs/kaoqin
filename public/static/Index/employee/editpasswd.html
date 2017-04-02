@@ -1,0 +1,45 @@
+{extend name="/public/base"/}
+{block name="css"}
+<link href="{$Think.PUB_PATH}css/style.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/style-responsive.css" rel="stylesheet">
+<link href="{$Think.PUB_PATH}css/passwd.css" rel="stylesheet">
+{/block}
+{block name="main"}
+<section class="panel passwd">
+    <header class="panel-heading">
+        <h3>修改密码</h3>
+    </header>
+    <div class="panel-body">
+        <form role="form" class="form-horizontal adminex-form" id="editpasswd_Form" method="post" action="{:url('Index/employee/editpasswd')}">
+            <div class="form-group has-success">
+                <label for="password" class="col-lg-2 control-label">旧密码</label>
+                <div class="col-lg-3">
+                    <input type="password" name="password" placeholder="旧密码" id="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label for="newpassword" class="col-lg-2 control-label">新的密码</label>
+                <div class="col-lg-3">
+                    <input type="password" name="newpassword" placeholder="新的密码" id="newpassword" class="form-control">
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label for="confirm_password" class="col-lg-2 control-label">确认密码</label>
+                <div class="col-lg-3">
+                    <input type="password" name="confirm_password" placeholder="确认密码" id="confirm_password" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-3">
+                    <button class="btn btn-primary" type="submit">提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+{/block}
+{block name="js"}
+<script type="text/javascript" src="{$Think.PUB_PATH}js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="{$Think.PUB_PATH}js/editpasswd.js"></script>
+{/block}

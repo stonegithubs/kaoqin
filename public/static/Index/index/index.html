@@ -1,0 +1,53 @@
+{extend name="/public/base"/}
+{block name="css"}
+<link href="{$Think.PUB_PATH}css/jumbotron.css" rel="stylesheet">
+{/block}
+{block name="main"}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>欢迎您！</h1>
+        <p> 此系统主要是方便公司员工进行考勤记录以及考勤记录查询，员工打卡请点击这里！</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button" value="1" id="sign">上班打卡 &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!--<div class="panel panel-default">-->
+        <!--<div class="panel-heading"><h2>企业最新公告</h2></div>-->
+        <!--<div class="panel-body">-->
+            <div class="row">
+                {volist name="adv" id="ad"}
+                <div class="col-md-4">
+                    <h4>{$ad.title|msubstr=0,20}</h4>
+                    <p>{$ad.content|msubstr=0,60}
+                    </p>
+                    <p><a class="btn btn-default" href="{:url('Index/Info/detail',['id'=>$ad['advId']])}" role="button">详情&raquo;</a></p>
+                </div>
+                {/volist}
+                <ul class="pagination" style="float: right">
+                    {:$adv->render()}
+
+                </ul>
+            </div>
+</div>
+{/block}
+{block name="js"}
+<script>
+    $('#sign').bind('click',function () {
+        $.ajax({
+            type : "POST",  //提交方式
+            url : "{:url('Index/Sign/sign')}",//路径
+            success:function(result){
+                if(result['status']!=1){
+                    alert(result['msg']);
+                }else{
+                    alert(result['msg']);
+                    window.location.href="{:url('Index/index')}";
+                }
+
+            }
+        });
+    });
+    </script>
+{/block}

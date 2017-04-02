@@ -42,6 +42,24 @@ class BasicAdmin extends Controller {
     protected $checkAuth = true;
 
     /**
+     * 登录用户是否为最大管理员权限
+     * @int 1,0
+     */
+    protected $isAdmin = 0;
+
+    /**
+     * 最高权限管理员
+     * @array
+     */
+    protected $adminArr = ['admin'];
+
+    /**
+     * 最高权限管理员
+     * @array
+     */
+    protected $adminId = 0;
+
+    /**
      * 后台权限控制初始化方法
      */
     public function _initialize() {
@@ -51,7 +69,10 @@ class BasicAdmin extends Controller {
                 $this->redirect('@admin/login');
             }
             $user_name=session("user");
+            $this->adminId = $user_name['id'];
+            $this->isAdmin = in_array($user_name['username'],$this->adminArr)? 1:0;
             $this->assign('username',$user_name['username']);
+            $this->assign('isAdmin',$this->isAdmin);
         }
         # 节点访问权限检查
 //        if ($this->checkLogin && $this->checkAuth) {
