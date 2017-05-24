@@ -43,6 +43,19 @@ class Employee extends BasicAdmin{
         $this->assign('select',$select);
         return view();
     }
+    //修改员工信息
+    public function add(){
+        $post = $this->request->post();
+        $eId = $post['eId'];
+            try{
+                Db::name('employee')->update($post);
+                $this->success('更新成功！');
+//                return array('status'=>2,"msg"=>'更新成功！');
+            }catch(Exception $e){
+                $this->error('更新失败！');
+//                return array('status'=>0,"msg"=>'更新失败！');
+            }
+    }
 
 
     //删除资源

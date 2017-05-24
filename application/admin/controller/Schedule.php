@@ -39,15 +39,16 @@ class Schedule extends BasicAdmin{
             ->where($where)->paginate(6,false,['query'=>$select]);
         $page = $employees->render();
         $eArr = $employees->items();
-        //        dump($eArr);
         foreach($eArr as $k => $item){
             $schedule = Db::name('schedule')->where(array('eId'=>$item['eId'],'date'=>date('Y-m-d'),'isDel'=>0))->find();//当天的排班记录
             if($schedule){
-                $record = Db::name('scheduleRecord')->where('sId',$schedule['sId'])->select(); //当天的打卡记录
+                $record = Db::name('scheduleRecord')->where('sId',$schedule['sId'])->order('type asc')->select(); //当天的打卡记录
                 $times = count($record);
                 switch($times){
                     case 0:
                         $eArr[$k]['record'] = 0;
+                        $eArr[$k]['isTravel'] = $schedule['isTravel'];
+                        $eArr[$k]['isLevel'] = $schedule['isLevel'];
                         break;
                     case 1:
                         $eArr[$k]['record'] = 1;
@@ -121,13 +122,19 @@ class Schedule extends BasicAdmin{
 
         foreach($eArr as $k => $item){
             //取出本周排班记录
-            $schedules = Db::name('schedule')->where(array('eId'=>$item['eId'],'isDel'=>0,'date'=>array('between',array($startTime,$endTime))))->order('date asc')->select();//当天的排班记录
+            $schedules = Db::name('schedule')->where(array('isTravel'=>0,'isLevel'=>0,'eId'=>$item['eId'],'isDel'=>0,'date'=>array('between',array($startTime,$endTime))))->order('date asc')->select();//当天的排班记录
             if($schedules){
                 $eArr[$k]['isSchedule'] = 1;
                 $temp = [];
                 foreach($schedules as $i=>$schedule){
                     $schedules[$i]['week'] = getWeek($schedule['date']);
-                    $temp[] = getWeek($schedule['date']);
+                    $weekStatus = getWeek($schedule['date']);
+                    if($schedule['isTravel']){
+                        $weekStatus .= '出差';
+                    }else if($schedule['isLevel']){
+                        $weekStatus .= '请假';
+                    }
+                    $temp[] = $weekStatus;
                 }
                 $eArr[$k]['schedules'] = $schedules;
                 $eArr[$k]['weeks'] = implode('、',$temp);
@@ -141,7 +148,13 @@ class Schedule extends BasicAdmin{
                 $temp = [];
                 foreach($schedules as $i=>$schedule){
                     $schedules[$i]['week'] = getWeek($schedule['date']);
-                    $temp[] = getWeek($schedule['date']);
+                    $weekStatus = getWeek($schedule['date']);
+                    if($schedule['isTravel']){
+                        $weekStatus .= '出差';
+                    }else if($schedule['isLevel']){
+                        $weekStatus .= '请假';
+                    }
+                    $temp[] = $weekStatus;
                 }
                 $eArr[$k]['nextSchedules'] = $schedules;
                 $eArr[$k]['nextWeeks'] = implode('、',$temp);
@@ -150,12 +163,16 @@ class Schedule extends BasicAdmin{
             }
 
         }
+        if($week == 0){
+            $week = 7;
+        }
 
         $this->assign('employees',$eArr);
         $this->assign('page',$page);
         $depts = Db::name('dept')->where(array('isDel'=>0))->select();//取得部门数据
         $this->assign("depts",$depts);
         $this->assign('select',$select);
+        $this->assign('week',$week);
         return view();
     }
 
@@ -168,10 +185,14 @@ class Schedule extends BasicAdmin{
         $week = date('w'); //周末为0，周一：1....
         if(empty($days))
             return array('status'=>0,'msg'=>'请选择排班日期！');
-        if($time ==2){//下周
-            $week = $week- 7;
+        if($time == 2){//下周
+            if($week != 0)
+                $week = $week- 7;
         }
         foreach($days as $day){
+            if($day == 0){
+                $day = 7;
+            }
             $date =date('Y-m-d',strtotime(($day-$week).' day'));
             //查询是否存在排班，不存在则插一条记录
             $r = Db::name('schedule')->where(array('eId'=>$eId,'date'=>$date))->find();

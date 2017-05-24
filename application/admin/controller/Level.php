@@ -34,7 +34,8 @@ class Level extends BasicAdmin{
         $where['l.isDel'] = 0;
         $data = Db::name('Level')->alias('l')
             ->join('employee e','e.eId=l.eId','left')
-            ->where($where)->paginate(5,false,['query'=>$select]);//分页
+            ->where($where)->order('addTime desc')
+            ->paginate(5,false,['query'=>$select]);//分页
         $this->assign('levels',$data);
         $this->assign('select',$select);
         return view();

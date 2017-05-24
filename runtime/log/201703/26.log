@@ -1,0 +1,5265 @@
+[ 2017-03-26T00:00:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：1,873.52kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:01:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,873.48kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:01:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,873.63kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:01:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/editpasswd.html
+[ log ] kaoqin.com/index.php/Index/employee/editpasswd.html [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：1,700.48kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'editpasswd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'addtime' => '2017-03-06',
+  'endtime' => '2017-03-07',
+  'mark' => 'ghghjghjghg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->editpasswd[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: password[F:\kaoqing\application\index\controller\Employee.php:62]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:04:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,874.04kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:13:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.312017s][吞吐率：3.20req/s] [内存消耗：1,413.19kb] [文件加载：42]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[F:\kaoqing\application\index\controller\Leave.php:20]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:13:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,874.57kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,716.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:14:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.246014s][吞吐率：4.06req/s] [内存消耗：1,874.57kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:14:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,874.57kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:18:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,716.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:22:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,716.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:23:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,717.32kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:23:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.163009s][吞吐率：6.13req/s] [内存消耗：1,692.67kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-14',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:23:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,692.67kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-14',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:23:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,692.67kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-14',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:24:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,692.67kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-14',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:25:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,717.84kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:26:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,692.66kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-02-28',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:26:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,692.66kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-02-28',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:26:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,692.66kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-02-28',
+  'mark' => '12312',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:27:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,717.84kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:27:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：1,692.73kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-03-26',
+  'endtime' => '2017-03-08',
+  'mark' => 'sdfsa',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:27:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,692.73kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-03-26',
+  'endtime' => '2017-03-08',
+  'mark' => 'sdfsa',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:27:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/commit.html
+[ log ] kaoqin.com/index.php/Index/employee/commit.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,692.31kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:27:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,875.42kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,698.15kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-07',
+  'mark' => '123123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,698.15kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-07',
+  'mark' => '123123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,717.97kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.217013s][吞吐率：4.61req/s] [内存消耗：1,698.25kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-01',
+  'mark' => 'fdsfsad',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,698.25kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-01',
+  'mark' => 'fdsfsad',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,698.25kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-01',
+  'mark' => 'fdsfsad',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:28:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,698.25kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-01',
+  'mark' => 'fdsfsad',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:29:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,717.82kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:29:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,698.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-26',
+  'endtime' => '2017-03-16',
+  'mark' => 'fsdfsd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:29:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,698.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-26',
+  'endtime' => '2017-03-16',
+  'mark' => 'fsdfsd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:29:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,698.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-26',
+  'endtime' => '2017-03-16',
+  'mark' => 'fsdfsd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:29:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,697.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Request' not found[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:30:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,688.21kb] [文件加载：50]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: starttime[F:\kaoqing\application\index\controller\Leave.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:30:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,717.77kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:30:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,653.34kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-02',
+  'mark' => 'dfasd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:38:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：2,357.67kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-02',
+  'mark' => 'ceshi',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-27' , '2017-03-02' , 10002 , 'ceshi' , '2017-03-26 12:38:23') [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:38:26+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：2,357.67kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-02',
+  'mark' => 'ceshi',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-27' , '2017-03-02' , 10002 , 'ceshi' , '2017-03-26 12:38:26') [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:39:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,720.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:39:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,357.69kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-16',
+  'mark' => 'ffffff',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-28' , '2017-03-16' , 10002 , 'ffffff' , '2017-03-26 12:39:28') [ RunTime:0.014001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,720.15kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:41:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.092006s][吞吐率：10.87req/s] [内存消耗：2,357.69kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-02-28',
+  'mark' => 'fsdfsad',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-28' , '2017-02-28' , 10002 , 'fsdfsad' , '2017-03-26 12:41:21') [ RunTime:0.011000s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:41:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/Index/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,720.54kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:41:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/Index/index [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,720.68kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:41:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,357.80kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-15',
+  'mark' => 'fdsfds',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-28' , '2017-03-15' , 10002 , 'fdsfds' , '2017-03-26 12:41:54') [ RunTime:0.011000s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/Index/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/Index/Index/index [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,720.52kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'Index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:42:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/Index/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/Index/Index/index [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,720.52kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'Index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:42:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,357.77kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/Index/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-15',
+  'mark' => 'fdsfsa',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-28' , '2017-03-15' , 10002 , 'fdsfsa' , '2017-03-26 12:42:25') [ RunTime:0.013000s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:42:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/Index/Index/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/Index/Index/Index/index [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,720.62kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/Index/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/login/out.html
+[ log ] kaoqin.com/index.php/Index/login/out.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,717.70kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'login',
+    2 => 'out',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/Index/Index/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->out[ F:\kaoqing\application\index\controller\Login.php ]
+[ info ] [ VIEW ] F:\kaoqing\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'user',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index.html
+[ log ] kaoqin.com/index.php/index/index.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,655.50kb] [文件加载：48]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/out.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/login/
+[ log ] kaoqin.com/index.php/Index/login/ [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：1,874.05kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ F:\kaoqing\application\index\controller\Login.php ]
+[ info ] [ VIEW ] ./public/static/index/login\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha.html
+[ log ] kaoqin.com/index.php/captcha.html [运行时间：0.557032s][吞吐率：1.80req/s] [内存消耗：1,414.25kb] [文件加载：39]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\kaoqing\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/login/login.html
+[ log ] kaoqin.com/index.php/index/login/login.html [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：2,428.45kb] [文件加载：55]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'empId' => '10009',
+  'password' => '12345',
+  'validte_code' => 'we',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ F:\kaoqing\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 LIMIT 1 [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/login/index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/login/index.php/Index/index [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,730.20kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'login',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index.html
+[ log ] kaoqin.com/index.php/index.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,715.70kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,719.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:43:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,655.66kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-02-27',
+  'mark' => 'fdsfs',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：2,357.49kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-17',
+  'mark' => 'fdsfs',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-28' , '2017-03-17' , 10009 , 'fdsfs' , '2017-03-26 12:44:04') [ RunTime:0.023002s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/Index/index [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,719.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,715.71kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,715.89kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,719.88kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,357.49kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-28',
+  'endtime' => '2017-03-15',
+  'mark' => 'fdsfds',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-28' , '2017-03-15' , 10009 , 'fdsfds' , '2017-03-26 12:44:53') [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:44:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/index.php/Index/index [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,683.26kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:45:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/index
+[ log ] kaoqin.com/index.php/Admin/index [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,746.62kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\kaoqing\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/admin/index\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:45:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/index
+[ log ] kaoqin.com/index.php/Admin/index [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,746.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\kaoqing\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/admin/index\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kaoqin.com/ [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,715.39kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:46:48+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kaoqin.com/ [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,715.39kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:46:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,715.65kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:46:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/editpasswd.html
+[ log ] kaoqin.com/index.php/Index/employee/editpasswd.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,729.52kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'editpasswd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->editpasswd[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ VIEW ] ./public/static/index/employee\editpasswd.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:46:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.199012s][吞吐率：5.02req/s] [内存消耗：2,438.92kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/editpasswd.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:47:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/editpasswd.html
+[ log ] kaoqin.com/index.php/Index/employee/editpasswd.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,729.65kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'editpasswd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->editpasswd[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ VIEW ] ./public/static/index/employee\editpasswd.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:47:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,720.02kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/editpasswd.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:47:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,357.49kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-01',
+  'mark' => 'dsfasfd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-27' , '2017-03-01' , 10009 , 'dsfasfd' , '2017-03-26 12:47:23') [ RunTime:0.012000s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:47:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,720.16kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/editpasswd.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:47:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.112007s][吞吐率：8.93req/s] [内存消耗：2,357.66kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '53',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-01',
+  'mark' => 'fdsfsdaf',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-27' , '2017-03-01' , 10009 , 'fdsfsdaf' , '2017-03-26 12:47:55') [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:47:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index/index
+[ log ] kaoqin.com/index.php/Index/leave/index/index [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：1,719.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,357.49kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '49',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-26',
+  'endtime' => '2017-03-07',
+  'mark' => 'fdsf',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-26' , '2017-03-07' , 10009 , 'fdsf' , '2017-03-26 12:48:23') [ RunTime:0.011000s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index/index/index
+[ log ] kaoqin.com/index.php/Index/leave/index/index/index [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,720.33kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,357.66kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '51',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-03-05',
+  'endtime' => '2017-03-07',
+  'mark' => 'dfasdf',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-03-05' , '2017-03-07' , 10009 , 'dfasdf' , '2017-03-26 12:48:45') [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index/index/Index/index
+[ log ] kaoqin.com/index.php/Index/leave/index/index/Index/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,720.33kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index/index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'index' => 'Index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,715.73kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index/index/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:48:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,715.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:50:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,877.50kb] [文件加载：51]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:51:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,719.99kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:51:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,357.66kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-02-27',
+  'endtime' => '2017-03-08',
+  'mark' => 'dsfdsafds',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-02-27' , '2017-03-08' , 10009 , 'dsfdsafds' , '2017-03-26 12:51:43') [ RunTime:0.018001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:51:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ log ] kaoqin.com/index.php/index/index/index.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,715.80kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:51:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,438.91kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.010001s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T00:52:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,715.71kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:53:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/login/out.html
+[ log ] kaoqin.com/index.php/Index/login/out.html [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,717.52kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'login',
+    2 => 'out',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->out[ F:\kaoqing\application\index\controller\Login.php ]
+[ info ] [ VIEW ] F:\kaoqing\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'user',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T00:53:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index.html
+[ log ] kaoqin.com/index.php/index/index.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,655.50kb] [文件加载：48]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/out.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=b8oa27094eabrimsm4p54atnp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kaoqin.com/ [运行时间：0.520029s][吞吐率：1.92req/s] [内存消耗：1,653.55kb] [文件加载：48]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/login/
+[ log ] kaoqin.com/index.php/Index/login/ [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,720.71kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ F:\kaoqing\application\index\controller\Login.php ]
+[ info ] [ VIEW ] ./public/static/index/login\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha.html
+[ log ] kaoqin.com/index.php/captcha.html [运行时间：0.331019s][吞吐率：3.02req/s] [内存消耗：1,412.60kb] [文件加载：39]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\kaoqing\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/login/login.html
+[ log ] kaoqin.com/index.php/index/login/login.html [运行时间：0.381022s][吞吐率：2.62req/s] [内存消耗：2,426.91kb] [文件加载：55]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+  'empId' => '10009',
+  'password' => '12345',
+  'validte_code' => 'jg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ F:\kaoqing\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141008s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.076005s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 LIMIT 1 [ RunTime:0.063003s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/login/index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/login/index.php/Index/index [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,728.72kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'login',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+  'Index' => 'index',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index.html
+[ log ] kaoqin.com/index.php/index.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,714.21kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/login/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:57:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.452026s][吞吐率：2.21req/s] [内存消耗：2,437.36kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100005s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.066003s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T08:58:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,718.44kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:58:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Index/leave/commit.html
+[ log ] kaoqin.com/index.php/Index/leave/commit.html [运行时间：0.406024s][吞吐率：2.46req/s] [内存消耗：2,355.99kb] [文件加载：54]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'commit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+  'starttime' => '2017-03-26',
+  'endtime' => '2017-03-28',
+  'mark' => '123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->commit[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104006s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `level` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] INSERT INTO `level` (`startTime` , `endTime` , `eId` , `remark` , `addTime`) VALUES ('2017-03-26' , '2017-03-28' , 10009 , '123' , '2017-03-26 08:58:11') [ RunTime:0.070004s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T08:58:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ log ] kaoqin.com/index.php/index/index/index.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,714.31kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:58:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,718.44kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:59:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/editpasswd.html
+[ log ] kaoqin.com/index.php/Index/employee/editpasswd.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,728.14kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'editpasswd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->editpasswd[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ VIEW ] ./public/static/index/employee\editpasswd.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:59:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,714.26kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/editpasswd.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:59:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,714.24kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:59:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.401023s][吞吐率：2.49req/s] [内存消耗：2,437.36kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.095006s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.064004s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T08:59:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,718.44kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T08:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,714.24kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T09:56:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/index
+[ log ] kaoqin.com/index.php/Index/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,714.24kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T09:57:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.409023s][吞吐率：2.44req/s] [内存消耗：2,437.36kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.096006s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.064003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.063003s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T09:57:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/editpasswd.html
+[ log ] kaoqin.com/index.php/Index/employee/editpasswd.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,728.16kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'editpasswd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->editpasswd[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ VIEW ] ./public/static/index/employee\editpasswd.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T09:57:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.413023s][吞吐率：2.42req/s] [内存消耗：2,437.48kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/editpasswd.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.101006s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.067004s ]
+
+---------------------------------------------------------------
+[ 2017-03-26T09:57:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,718.44kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T09:57:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/leave/index.html
+[ log ] kaoqin.com/index.php/Index/leave/index.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,718.44kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'leave',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Leave->index[ F:\kaoqing\application\index\controller\Leave.php ]
+[ info ] [ VIEW ] ./public/static/index/leave\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-26T09:57:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Index/employee/index.html
+[ log ] kaoqin.com/index.php/Index/employee/index.html [运行时间：0.440025s][吞吐率：2.27req/s] [内存消耗：2,437.41kb] [文件加载：56]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Index/leave/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=rqraslggd5otht34nbf0jl6453',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Employee->index[ F:\kaoqing\application\index\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/index/employee\index.html [ array (
+  0 => 'user',
+  1 => 'emp',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.105006s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` WHERE  `eId` = 10009 [ RunTime:0.071004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.071004s ]
+[ sql ] [ SQL ] SELECT `dName` FROM `dept` WHERE  `dId` = 1 LIMIT 1 [ RunTime:0.070004s ]
+
+---------------------------------------------------------------

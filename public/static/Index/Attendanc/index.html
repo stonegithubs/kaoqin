@@ -57,7 +57,7 @@
                 {else/}
                      {if condition="$day['isrecord'] eq 1"}
                         {
-                            title: "{$day.title}",
+                            title: "{$day['title']}",
                             start: new Date(y, m, d+{$day.day})
                         },
                     {else/}

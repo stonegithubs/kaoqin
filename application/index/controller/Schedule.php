@@ -21,7 +21,7 @@ class Schedule extends BasicController
             $res=Db::name('schedule')->where($where)->select();
             $today=time();
             foreach ($res as $key=>$re){
-               $res[$key]['day']=round((strtotime($re['date'])-$today)/86400)+1;
+               $res[$key]['day']=ceil((strtotime($re['date'])-$today)/86400);
             }
             $this->assign('days',$res);
             return view();

@@ -1,0 +1,2557 @@
+[ 2017-03-18T16:15:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] kaoqin.com/ [运行时间：0.101513s][吞吐率：9.85req/s] [内存消耗：1,202.39kb] [文件加载：33]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\kaoqing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/index/index\hello.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/index
+[ log ] kaoqin.com/index.php/Admin/index [运行时间：0.377547s][吞吐率：2.65req/s] [内存消耗：1,357.98kb] [文件加载：37]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login.html
+[ log ] kaoqin.com/index.php/admin/login.html [运行时间：0.028003s][吞吐率：35.71req/s] [内存消耗：1,347.41kb] [文件加载：36]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\kaoqing\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] ./public/static/admin/login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login.html
+[ log ] kaoqin.com/index.php/admin/login.html [运行时间：0.025504s][吞吐率：39.21req/s] [内存消耗：1,347.28kb] [文件加载：36]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/admin/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\kaoqing\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] ./public/static/admin/login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/login/index.html
+[ log ] kaoqin.com/index.php/Admin/login/index.html [运行时间：0.168022s][吞吐率：5.95req/s] [内存消耗：2,065.75kb] [文件加载：44]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://kaoqin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://kaoqin.com/index.php/admin/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\kaoqing\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\kaoqing\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103513s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.017502s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.017502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin.html
+[ log ] kaoqin.com/index.php/admin.html [运行时间：0.025503s][吞吐率：39.21req/s] [内存消耗：1,531.03kb] [文件加载：39]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\kaoqing\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./public/static/admin/index\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/user/userlist.html
+[ log ] kaoqin.com/index.php/Admin/user/userlist.html [运行时间：0.259033s][吞吐率：3.86req/s] [内存消耗：2,397.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ F:\kaoqing\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/user\userlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.020003s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `status` = 1 LIMIT 0,3 [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/schedule/index.html
+[ log ] kaoqin.com/index.php/Admin/schedule/index.html [运行时间：0.025003s][吞吐率：39.99req/s] [内存消耗：1,282.84kb] [文件加载：34]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'schedule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Schedule->index[ F:\kaoqing\application\admin\controller\Schedule.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/schedule/index.html
+[ log ] kaoqin.com/index.php/Admin/schedule/index.html [运行时间：0.019502s][吞吐率：51.28req/s] [内存消耗：1,282.97kb] [文件加载：34]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'schedule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Schedule->index[ F:\kaoqing\application\admin\controller\Schedule.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/user/userlist.html
+[ log ] kaoqin.com/index.php/Admin/user/userlist.html [运行时间：0.094512s][吞吐率：10.58req/s] [内存消耗：2,204.31kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ F:\kaoqing\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/user\userlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021503s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `status` = 1 LIMIT 0,3 [ RunTime:0.011502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/travel/index.html
+[ log ] kaoqin.com/index.php/Admin/travel/index.html [运行时间：0.145018s][吞吐率：6.90req/s] [内存消耗：2,145.92kb] [文件加载：46]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'travel',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Travel->index[ F:\kaoqing\application\admin\controller\Travel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018503s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT `eId`,`name` FROM `employee` WHERE  `isDel` = 0 [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `travel` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `travel` `t` LEFT JOIN `employee` `e` ON `e`.`eId`=`t`.`eId` LIMIT 1 [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SELECT * FROM `travel` `t` LEFT JOIN `employee` `e` ON `e`.`eId`=`t`.`eId` LIMIT 0,10 [ RunTime:0.013001s ]
+[ error ] [0]variable type error： object[F:\kaoqing\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/user/userlist.html
+[ log ] kaoqin.com/index.php/Admin/user/userlist.html [运行时间：0.141018s][吞吐率：7.09req/s] [内存消耗：2,204.31kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ F:\kaoqing\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/user\userlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `status` = 1 LIMIT 0,3 [ RunTime:0.012501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/user/userlist.html
+[ log ] kaoqin.com/index.php/Admin/user/userlist.html [运行时间：0.086011s][吞吐率：11.63req/s] [内存消耗：2,204.10kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ F:\kaoqing\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/user\userlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `status` = 1 LIMIT 0,3 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/dept/deptlist.html
+[ log ] kaoqin.com/index.php/Admin/dept/deptlist.html [运行时间：0.118516s][吞吐率：8.44req/s] [内存消耗：2,380.39kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'dept',
+    2 => 'deptlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Dept->deptList[ F:\kaoqing\application\admin\controller\Dept.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/dept\deptlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId ) `_group_count_` LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `d`.`dId`,`d`.`dName`,`d`.`description`,count(e.eId) as sum FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId LIMIT 0,5 [ RunTime:0.011501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/dept/deptlist.html
+[ log ] kaoqin.com/index.php/Admin/dept/deptlist.html [运行时间：0.089011s][吞吐率：11.23req/s] [内存消耗：2,194.38kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'dept',
+    2 => 'deptlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/dept/deptlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Dept->deptList[ F:\kaoqing\application\admin\controller\Dept.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/dept\deptlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021503s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId ) `_group_count_` LIMIT 1 [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT `d`.`dId`,`d`.`dName`,`d`.`description`,count(e.eId) as sum FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId LIMIT 0,5 [ RunTime:0.010501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/dept/deptlist.html?page=2
+[ log ] kaoqin.com/index.php/Admin/dept/deptlist.html?page=2 [运行时间：0.111014s][吞吐率：9.01req/s] [内存消耗：2,176.05kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'dept',
+    2 => 'deptlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/dept/deptlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Dept->deptList[ F:\kaoqing\application\admin\controller\Dept.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/dept\deptlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId ) `_group_count_` LIMIT 1 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT `d`.`dId`,`d`.`dName`,`d`.`description`,count(e.eId) as sum FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId LIMIT 5,5 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/dept/deptlist.html?page=1
+[ log ] kaoqin.com/index.php/Admin/dept/deptlist.html?page=1 [运行时间：0.091011s][吞吐率：10.99req/s] [内存消耗：2,195.17kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'dept',
+    2 => 'deptlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/dept/deptlist.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Dept->deptList[ F:\kaoqing\application\admin\controller\Dept.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/dept\deptlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId ) `_group_count_` LIMIT 1 [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT `d`.`dId`,`d`.`dName`,`d`.`description`,count(e.eId) as sum FROM `dept` `d` LEFT JOIN `employee` `e` ON `e`.`dId`=`d`.`dId` WHERE  `d`.`isDel` = 0 GROUP BY d.dId LIMIT 0,5 [ RunTime:0.010501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.171521s][吞吐率：5.83req/s] [内存消耗：2,421.06kb] [文件加载：49]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/dept/deptlist.html?page=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.100013s][吞吐率：10.00req/s] [内存消耗：2,218.09kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.009501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.009501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/addOne
+[ log ] kaoqin.com/index.php/Admin/employee/addOne [运行时间：0.096512s][吞吐率：10.36req/s] [内存消耗：2,007.78kb] [文件加载：42]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'addOne',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->addOne[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.015002s ]
+[ sql ] [ SQL ] INSERT INTO `employee` (`password`) VALUES ('e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.014502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:16:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html
+[ log ] kaoqin.com/index.php/admin/employee/index.html [运行时间：0.119016s][吞吐率：8.40req/s] [内存消耗：2,218.36kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.010002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.013502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=2
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=2 [运行时间：0.124016s][吞吐率：8.06req/s] [内存消耗：2,218.28kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 3,3 [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.121515s][吞吐率：8.23req/s] [内存消耗：2,214.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.014002s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.010502s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=2
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=2 [运行时间：0.139018s][吞吐率：7.19req/s] [内存消耗：2,218.23kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 3,3 [ RunTime:0.020003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=2
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=2 [运行时间：0.112514s][吞吐率：8.89req/s] [内存消耗：2,217.92kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010002s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 3,3 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.137518s][吞吐率：7.27req/s] [内存消耗：2,214.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.103513s][吞吐率：9.66req/s] [内存消耗：2,213.90kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.144519s][吞吐率：6.92req/s] [内存消耗：2,213.97kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033004s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/travel/index.html
+[ log ] kaoqin.com/index.php/Admin/travel/index.html [运行时间：0.130517s][吞吐率：7.66req/s] [内存消耗：2,146.63kb] [文件加载：46]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'travel',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Travel->index[ F:\kaoqing\application\admin\controller\Travel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SELECT `eId`,`name` FROM `employee` WHERE  `isDel` = 0 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `travel` [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `travel` `t` LEFT JOIN `employee` `e` ON `e`.`eId`=`t`.`eId` LIMIT 1 [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT * FROM `travel` `t` LEFT JOIN `employee` `e` ON `e`.`eId`=`t`.`eId` LIMIT 0,10 [ RunTime:0.013002s ]
+[ error ] [0]variable type error： object[F:\kaoqing\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.134018s][吞吐率：7.46req/s] [内存消耗：2,214.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/level/index.html
+[ log ] kaoqin.com/index.php/Admin/level/index.html [运行时间：0.037505s][吞吐率：26.66req/s] [内存消耗：1,330.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'level',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Level->index[ F:\kaoqing\application\admin\controller\Level.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: status[F:\kaoqing\application\admin\controller\Level.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:17:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.138018s][吞吐率：7.25req/s] [内存消耗：2,214.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020503s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010002s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/level/index.html
+[ log ] kaoqin.com/index.php/Admin/level/index.html [运行时间：0.034505s][吞吐率：28.98req/s] [内存消耗：1,330.93kb] [文件加载：38]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'level',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Level->index[ F:\kaoqing\application\admin\controller\Level.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: status[F:\kaoqing\application\admin\controller\Level.php:18]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.133517s][吞吐率：7.49req/s] [内存消耗：2,214.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.009502s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/schedule/index.html
+[ log ] kaoqin.com/index.php/Admin/schedule/index.html [运行时间：0.020003s][吞吐率：49.99req/s] [内存消耗：1,283.20kb] [文件加载：34]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'schedule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Schedule->index[ F:\kaoqing\application\admin\controller\Schedule.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=3
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=3 [运行时间：0.105013s][吞吐率：9.52req/s] [内存消耗：2,214.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 6,3 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=2
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=2 [运行时间：0.109014s][吞吐率：9.17req/s] [内存消耗：2,218.23kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 3,3 [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html?page=1
+[ log ] kaoqin.com/index.php/admin/employee/index.html?page=1 [运行时间：0.121016s][吞吐率：8.26req/s] [内存消耗：2,218.80kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/user/userlist.html
+[ log ] kaoqin.com/index.php/Admin/user/userlist.html [运行时间：0.100013s][吞吐率：10.00req/s] [内存消耗：2,204.81kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html?page=1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ F:\kaoqing\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/user\userlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `status` = 1 LIMIT 0,3 [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/user/userlist.html
+[ log ] kaoqin.com/index.php/Admin/user/userlist.html [运行时间：0.095012s][吞吐率：10.52req/s] [内存消耗：2,204.39kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ F:\kaoqing\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/user\userlist.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023003s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.014002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `status` = 1 LIMIT 0,3 [ RunTime:0.012002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.122515s][吞吐率：8.16req/s] [内存消耗：2,218.36kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/user/userlist.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.009502s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.106013s][吞吐率：9.43req/s] [内存消耗：2,218.09kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.010502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.116015s][吞吐率：8.62req/s] [内存消耗：2,213.99kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://kaoqin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'selectName' => '',
+  'selectDId' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'depts',
+  3 => 'data',
+  4 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`dId` = '1'  AND `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`dId` = '1'  AND `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.100513s][吞吐率：9.95req/s] [内存消耗：2,218.08kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.009501s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.010002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010502s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.117014s][吞吐率：8.55req/s] [内存消耗：2,211.63kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://kaoqin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'selectName' => '',
+  'selectDId' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'depts',
+  3 => 'data',
+  4 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`dId` = '3'  AND `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`dId` = '3'  AND `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.012501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.110514s][吞吐率：9.05req/s] [内存消耗：2,218.08kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.013502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.118515s][吞吐率：8.44req/s] [内存消耗：2,218.74kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://kaoqin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'selectName' => '',
+  'selectDId' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'depts',
+  3 => 'data',
+  4 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012502s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011501s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.112515s][吞吐率：8.89req/s] [内存消耗：2,218.08kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.013002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.111014s][吞吐率：9.01req/s] [内存消耗：2,214.03kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://kaoqin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'selectName' => '',
+  'selectDId' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'depts',
+  3 => 'data',
+  4 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017002s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`dId` = '1'  AND `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`dId` = '1'  AND `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.011502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011501s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.011002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:18:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.101513s][吞吐率：9.85req/s] [内存消耗：2,218.08kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015502s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.009501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010002s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/Admin/employee/index.html
+[ log ] kaoqin.com/index.php/Admin/employee/index.html [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：2,218.08kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:38:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/Admin/employee/del.html
+[ log ] kaoqin.com/index.php/Admin/employee/del.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：2,010.51kb] [文件加载：42]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'employee',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://kaoqin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+  'eId' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->del[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] UPDATE `employee`  SET `isDel`=1,`delTime`='2017-03-18 16:38:45'  WHERE  `eId` = 1 [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:38:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html
+[ log ] kaoqin.com/index.php/admin/employee/index.html [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：2,218.17kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://kaoqin.com/index.php/Admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2017-03-18T16:39:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/employee/index.html
+[ log ] kaoqin.com/index.php/admin/employee/index.html [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：2,217.88kb] [文件加载：47]
+[ info ] [ LANG ] F:\kaoqing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'employee',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kaoqin.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://kaoqin.com/index.php/admin/employee/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2373441536; PHPSESSID=l9sks2h5aa966jjkl4n9ehiku6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Employee->index[ F:\kaoqing\application\admin\controller\Employee.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./public/static/admin/employee\index.html [ array (
+  0 => 'username',
+  1 => 'isAdmin',
+  2 => 'classuri',
+  3 => 'depts',
+  4 => 'data',
+  5 => 'select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:dbname=kaoqin;host=139.199.182.250;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `employee` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `employee` `e` LEFT JOIN `dept` `d` ON `e`.`dId`=`d`.`dId` WHERE  `e`.`isDel` = 0 LIMIT 0,3 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dept` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `dept` WHERE  `isDel` = 0 [ RunTime:0.010001s ]
+
+---------------------------------------------------------------

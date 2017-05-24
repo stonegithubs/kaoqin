@@ -25,70 +25,46 @@ class Attendanc extends BasicController
             $res=Db::name('schedule')->where($where)->select();
             $today=time();
             foreach ($res as $key=>$re){
-                $res[$key]['day']=round((strtotime($re['date'])-$today)/86400)+1;
-                $record=Db::name('scheduleRecord')->where('sId',$re['sId'])->select();
+                $res[$key]['day']=ceil((strtotime($re['date'])-$today)/86400);
+                $record=Db::name('scheduleRecord')->where('sId',$re['sId'])->order('addTime asc')->select();
                 //查找到记录
                 if(!empty($record)){
                     if(count($record)==2){
                         $signTime1=date('H:i:s',strtotime($record[0]['addTime']));
                         $signTime2=date('H:i:s',strtotime($record[1]['addTime']));
-                    }else{
+                    }else if(count($record)==1){
                         $signTime1=date('H:i:s',strtotime($record[0]['addTime']));
                     }
+                    // 设置打卡记录状态
                     $res[$key]['isrecord']=1;
                     switch (count($record)){
-                        case 0:
-                            $res[$key]['title']='你今天没有打卡，缺勤！';
-                            break;
                         case 1:
-                            //上午时间段打的
-                            if($signTime1<'12:00:00'){
-                                if($signTime1<'09:30:00'){
-                                    $res[$key]['title']='早上正常出勤!';
-                                    $res[$key]['title'].='下午没有打卡';
-                                }else{
-                                    $res[$key]['title']='早上迟到了！';
-                                    $res[$key]['title'].='下午没有打卡';
-                                }
-                                //下午时间段打的
+                            if($signTime1>'09:30:00'){
+                                    $res[$key]['title']='你上班迟到了!';
                             }else{
-                                if($signTime1<'18:00:00'){
-                                    $res[$key]['title']='早上没有打卡';
-                                    $res[$key]['title']='你下午早退哦';
-                                }else{
-                                    $res[$key]['title']='早上没有打卡';
-                                    $res[$key]['title'].='下午正常出勤!';
-                                }
+                                $res[$key]['title']='正常上班!';
                             }
                             break;
                         case 2:
-                            if($signTime1<'12:00:00'){
-                                //上午时间段打的
-                                if($signTime1<'09:30:00'){
-                                    $res[$key]['title']='早上正常出勤!';
-                                }else{
-                                    $res[$key]['title']='早上迟到了！';
-                                }
-                                //下午时间段打的
-                                if($signTime2<'18:00:00'){
-                                    $res[$key]['title'].='你下午早退哦';
-                                }else{
-                                    $res[$key]['title'].='下午正常出勤!';
-                                }
-                            };
+                            if($signTime1>'09:30:00'){
+                                $res[$key]['title']='你上班迟到了!';
+                            }else{
+                                $res[$key]['title']='正常上班!';
+                            }
+                            if($signTime2<'18:00:00'){
+                                    $res[$key]['title'].='你下班早退哦';
+                            }else{
+                                    $res[$key]['title'].='正常下班';
+                            }
                             break;
                         default:break;
-
                     }
                 }
                 else{
+                    // 设置没有打卡记录状态
                     $res[$key]['isrecord']=0;
                 }
-                //设置没有打卡记录状态
-
-
             }
-
             //取出打卡记录，标记缺勤，早退，迟到
             $this->assign('days',$res);
             return view();

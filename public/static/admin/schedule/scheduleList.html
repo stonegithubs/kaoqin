@@ -33,6 +33,12 @@
         border: 1px solid black;
         border-radius: 50%;
     }
+    .model{
+        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        float: none;
+    }
 </style>
 {/block}
 {block name="title"}排班列表{/block}
@@ -84,7 +90,7 @@
     <div class="directory-info-row">
         <div class="row">
             {volist name='employees' id='employee'}
-            <div class="col-md-6 col-sm-6" >
+            <div class="col-md-6 col-sm-6 " style="position: relative;vertical-align: top;display: inline-block;float: none;width: 49%;" >
                 <div class="panel">
                     <div class="panel-body">
                         <h4>{$employee.name}<span class="text-muted small">-{$employee.dName}-{$employee.position}</span></h4>
@@ -272,19 +278,45 @@
     var eIdInput = $('#addModal').find('[name=eId]');
     var nameInput = $('#addModal').find('#name');
     var timeInput = $('#addModal').find('[name=time]');
+    var day = [];
+     day[0] = $('#day1');
+    day[1] = $('#day2');
+    day[2] = $('#day3');
+    day[3] = $('#day4');
+    day[4] = $('#day5');
+    day[5] = $('#day6');
+    day[6] = $('#day7');
+     cout = {$week};
     $('.addThisWeek').on('click',function(){
         var eId = $(this).data('eid');
         var name = $(this).data('name');
+        var i =0;
         eIdInput.val(eId);
         nameInput.html(name);
         timeInput.val(1);
+        for(i =0;i<7 ;i++){
+            day[i].removeAttr("checked");
+            day[i].parent('div').removeClass("checked");
+        }
+        for(i =0;i<cout ;i++){
+            day[i].attr('disabled',true);
+        }
     })
     $('.addNextWeek').on('click',function(){
         var eId = $(this).data('eid');
         var name = $(this).data('name');
+        var i =0;
         eIdInput.val(eId);
         nameInput.html(name);
         timeInput.val(2);
+        for(i =0;i<7 ;i++){
+            day[i].removeAttr("checked");
+            day[i].parent('div').removeClass("checked");
+        }
+        for( i =0;i<cout ;i++){
+            day[i].attr('disabled',false);
+        }
+
     })
     $('.editSchedule').on('click',function(){
         var eId = $(this).data('eid');

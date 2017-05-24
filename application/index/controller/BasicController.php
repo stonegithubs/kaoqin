@@ -26,6 +26,7 @@ class BasicController extends Controller
             //首页不用检验登录状态
             if($this->request->action()!='index'){
                 if (!$this->_isLogin()) {
+                    return array('status'=>7,'msg'=>'你还没登录！');
                     $this->redirect('@Index/login/index');
                 }
             }

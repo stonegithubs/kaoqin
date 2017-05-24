@@ -107,25 +107,29 @@
                                             <input type="hidden" name="eId" id="hidden_id">
                                             <div class="form-group ">
                                                 <label for="name" class="control-label col-lg-2">员工姓名</label>
-                                                <div class="col-lg-8">
-                                                    <input class=" form-control" id="name" name="name" type="text" />
+                                                <div class="col-lg-6">
+                                                    <input class=" form-control str-length required" data-length="4" id="ename" name="name" type="text" />
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
+
                                             </div>
                                             <div class="form-group ">
                                                 <label for="position" class="control-label col-lg-2">职务</label>
-                                                <div class="col-lg-8">
-                                                    <input class=" form-control" id="position" name="position" type="text" />
+                                                <div class="col-lg-6">
+                                                    <input class=" form-control str-length required" data-length="4" id="position" name="position"  type="text" />
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group ">
                                                 <label for="tel" class="control-label col-lg-2">联系方式</label>
-                                                <div class="col-lg-8">
-                                                    <input class="form-control " id="tel" name="tel" type="text" />
+                                                <div class="col-lg-6">
+                                                    <input class="form-control phone required" id="tel" name="tel" type="text" placeholder="手机号"  />
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group ">
                                                 <label   class="control-label col-lg-2">部门</label>
-                                                <div class="col-lg-8">
+                                                <div class="col-lg-6">
                                                     <select name="dId" class="form-control m-bot15">
                                                         <option value="0">暂无部门</option>
                                                         {volist name="depts" id="dept"}
@@ -133,13 +137,15 @@
                                                         {/volist}
                                                     </select>
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label col-lg-2">入职时间</label>
                                                 <div class="col-lg-6 ">
-                                                    <input class="form-control form-control-inline input-medium default-date-picker" size="16" id="inTime" name="inTime" type="text" value="">
+                                                    <input class="form-control form-control-inline input-medium default-date-picker required" size="16" id="inTime" name="inTime" type="text" value="">
                                                     <span class="help-block">请选择一个日期</span>
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-lg-offset-7 col-lg-10">
@@ -236,12 +242,12 @@
         var currData = $(obj).closest('tr').data();
         $('#model_title').html("修改信息");
         $('#sub_btn').html("修改");
-        $('#name').val(currData.name);
+        $('#ename').val(currData.name);
         $('#tel').val(currData.tel);
         $('#position').val(currData.position);
         $('#hidden_id').val(currData.id);
         $('#inTime').val(currData.intime)
-        $('#dId').val(currData.did);
+        $('[name=dId]').val(currData.did);
     }
 
     $('#addbtn').click(function(){
@@ -262,6 +268,9 @@
         }
     })
 
+    $('.ename').mouseleave(function(){
+        var phone = $(this).val();
+    });
 
 
 </script>

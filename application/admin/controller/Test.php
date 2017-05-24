@@ -13,8 +13,10 @@ use think\Db;
 
 class test extends Controller{
     public function test(){
-        $week = date('w');
-        echo $week;
+        $startTime  = "2017-04-19";
+        $endTime = "2017-04-21";
+        echo  ((strtotime($endTime)-strtotime($startTime))/(60*60*24));
+
 
     }
 

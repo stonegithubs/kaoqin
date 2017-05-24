@@ -54,15 +54,15 @@ class Travel extends BasicAdmin{
         $eId = $post['eId'];
         $startTime = $post['startTime'];
         $endTime = $post['endTime'];
-        if( strtotime($startTime) >= strtotime($endTime)){
+        if( strtotime($startTime) > strtotime($endTime)){
             return array('status'=>0,"msg"=>'起始时间要大于结束时间！');
         }
         if( strtotime($startTime) < time()){
             return array('status'=>0,"msg"=>'起始时间要大于今天！');
         }
-        $times = ceil((strtotime($startTime)-strtotime($endTime))/(60*60*24));
+        $times = ceil((strtotime($endTime)-strtotime($startTime))/(60*60*24))+1;
         $days = Db::name('schedule')->where(array('eId'=>$eId,'date'=>array('between',array($startTime,$endTime))))->count();
-        if($times!=$days){
+        if($times > $days){
             return array('status'=>0,"msg"=>'请确定出差期间已有排班！');
         }
         if($tId){
@@ -83,7 +83,6 @@ class Travel extends BasicAdmin{
         }else{
             //添加
             Db::startTrans();
-            $post['addTime'] = getCurrTime();
             $post['adminId'] = $this->adminId;
             $r = Db::name('travel')->insert($post);
             Db::name('schedule')->where(array('eId'=>$eId,'date'=>array('between',array($startTime,$endTime))))->setField(array('isTravel'=>1));
@@ -92,6 +91,7 @@ class Travel extends BasicAdmin{
                 return array('status'=>1,"msg"=>'添加成功！');
             }
             else{
+                $post['addTime'] = getCurrTime();
                 Db::rollback();
                 return array('status'=>0,"msg"=>'操作失败！');
             }

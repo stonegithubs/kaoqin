@@ -56,7 +56,7 @@
     <div class="directory-info-row">
         <div class="row">
             {volist name='employees' id='employee'}
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6" style="position: relative;vertical-align: top;display: inline-block;float: none;width: 49%;">
                     <div class="panel">
                         <div class="panel-body">
                             <h4>{$employee.name}<span class="text-muted small">-{$employee.dName}-{$employee.position}</span></h4>
@@ -67,17 +67,29 @@
                                 <div class="media-body">
                                     <address>
                                         {eq name='employee.isSchedule' value='0'}
+
                                             <strong>今天无排班</strong>
                                         {else/}
                                         {switch name='employee.record'}
-                                            {case value=0}
+                                            {case value='0'}
+                                                {eq name='employee.isTravel' value='1'}
+                                                    <strong>今天出差</strong>
+                                                {/eq}
+                                                {eq name='employee.isLevel' value='1'}
+                                                    <strong>今天请假</strong>
+                                                {/eq}
                                                 <strong>今日未打卡</strong><br>
                                             {/case}
-                                            {case value=1}
-                                                <strong>上班打卡</strong><br>
-                                                上班时间：{$employee.morning.addTime}<br>
+                                            {case value='1'}
+                                                {eq name='employee.morning.type' value='0'}
+                                                    <strong>上班打卡</strong><br>
+                                                    上班时间：{$employee.morning.addTime}<br>
+                                                    {else/}
+                                                    <strong>下班打卡</strong><br>
+                                                    下班时间：{$employee.morning.addTime}<br>
+                                                {/eq}
                                             {/case}
-                                            {case value=2}
+                                            {case value='2'}
                                                 <strong>下班打卡</strong><br>
                                                 上班时间：{$employee.morning.addTime}<br>
                                                 下班时间：{$employee.night.addTime}<br>
