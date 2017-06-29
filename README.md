@@ -11,4 +11,6 @@
 ![github](https://github.com/shisiying/images/blob/master/%E6%8E%92%E7%8F%AD.png "排班")
 ![github](https://github.com/shisiying/images/blob/master/%E5%87%BA%E5%8B%A4.png "出勤")
 ![github](https://github.com/shisiying/images/blob/master/%E7%94%A8%E6%88%B7.png "用户")
+![github](https://github.com/shisiying/images/blob/master/%E6%8E%92%E7%8F%AD1.png "用户")
+
 
