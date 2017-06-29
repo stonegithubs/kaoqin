@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : javalocalhost
+Source Server         : 5kcrm
 Source Server Version : 50505
 Source Host           : localhost:3306
 Source Database       : kaoqin
@@ -10,13 +10,13 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2017-05-13 15:00:26
+Date: 2017-06-29 16:05:25
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for adv
+-- Table structure for `adv`
 -- ----------------------------
 DROP TABLE IF EXISTS `adv`;
 CREATE TABLE `adv` (
@@ -56,7 +56,7 @@ INSERT INTO `adv` VALUES ('21', '12414', '124214', '2017-03-25 17:26:29', '1', '
 INSERT INTO `adv` VALUES ('22', '123', '<pre>$.ajax({<br>    url: self.attr(\"action\"),<br>    type:self.attr(\"method\"),<br>    data:self.serializeArray(),<br>    dataType:\'json\',<br>    success:function(data){<br>        if(data.status!=0){<br>            $(\'#myModal3\').modal(\'hide\')<br>            $(\".alert-success strong\").html(data.msg);<br>            successAlert.show();<br>            dangerAlert.hide();<br>            if(callback){<br>                console.log(111);<br>                setTimeout(callback(),\"1500\");<br>            } else{<br>                console.log(2222);<br>                setTimeout(\"back()\",\"1500\");<br>            }<br>        }else{<br>            $(\'#myModal3\').modal(\'hide\')<br>            $(\".alert-danger strong\").html(data.msg);<br>            successAlert.hide();<br>            dangerAlert.show();<br>        }<br>    }<br>}).done(function(data){<br>})</pre>', '2017-03-25 17:28:48', '1', '2017-03-30 11:05:51');
 
 -- ----------------------------
--- Table structure for dept
+-- Table structure for `dept`
 -- ----------------------------
 DROP TABLE IF EXISTS `dept`;
 CREATE TABLE `dept` (
@@ -80,7 +80,7 @@ INSERT INTO `dept` VALUES ('5', '销售部', '负责公司外部销售', null, '
 INSERT INTO `dept` VALUES ('6', '外销部', '负责公司对海外销售', null, '0', null);
 
 -- ----------------------------
--- Table structure for employee
+-- Table structure for `employee`
 -- ----------------------------
 DROP TABLE IF EXISTS `employee`;
 CREATE TABLE `employee` (
@@ -118,7 +118,7 @@ INSERT INTO `employee` VALUES ('10018', 'e10adc3949ba59abbe56e057f20f883e', '', 
 INSERT INTO `employee` VALUES ('10019', 'e10adc3949ba59abbe56e057f20f883e', '', null, '/public/images/photos/user1.png', null, null, null, null, null, null, null, null, null, '0', null, '0', null);
 
 -- ----------------------------
--- Table structure for level
+-- Table structure for `level`
 -- ----------------------------
 DROP TABLE IF EXISTS `level`;
 CREATE TABLE `level` (
@@ -158,7 +158,7 @@ INSERT INTO `level` VALUES ('16', '10009', '2017-03-26 12:51:43', '2017-02-27 00
 INSERT INTO `level` VALUES ('17', '10009', '2017-03-26 08:58:11', '2017-03-26 00:00:00', '2017-03-28 00:00:00', null, null, '123', '0', null, '0');
 
 -- ----------------------------
--- Table structure for schedule
+-- Table structure for `schedule`
 -- ----------------------------
 DROP TABLE IF EXISTS `schedule`;
 CREATE TABLE `schedule` (
@@ -172,22 +172,25 @@ CREATE TABLE `schedule` (
   `isOver` tinyint(2) DEFAULT '0' COMMENT '是否加班',
   `isTravel` tinyint(2) DEFAULT NULL COMMENT '是否出差',
   `status` tinyint(2) DEFAULT '0' COMMENT '状态：0为日常状态，1为其他状态（请假，出差，缺勤）',
+  `isDel` tinyint(2) DEFAULT '0',
   PRIMARY KEY (`sId`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of schedule
 -- ----------------------------
-INSERT INTO `schedule` VALUES ('4', '10000', '2017-03-26 00:00:00', '0', '0', '0', '0', '0', null, '0');
-INSERT INTO `schedule` VALUES ('5', '10000', '2017-03-28 00:00:00', '0', '0', '0', '0', '0', null, '0');
-INSERT INTO `schedule` VALUES ('6', '10000', '2017-03-29 00:00:00', '0', '0', '0', '0', '0', null, '0');
-INSERT INTO `schedule` VALUES ('7', '10000', '2017-03-30 00:00:00', '0', '0', '0', '0', '0', null, '0');
-INSERT INTO `schedule` VALUES ('8', '10000', '2017-03-27 00:00:00', '0', '0', '0', '0', '0', null, '0');
-INSERT INTO `schedule` VALUES ('9', '10000', '2017-03-31 00:00:00', '0', '0', '0', '0', '0', null, '0');
-INSERT INTO `schedule` VALUES ('10', '10000', '2017-04-01 00:00:00', '0', '0', '0', '0', '0', null, '0');
+INSERT INTO `schedule` VALUES ('4', '10000', '2017-03-26 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('5', '10000', '2017-03-28 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('6', '10000', '2017-03-29 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('7', '10000', '2017-03-30 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('8', '10000', '2017-03-27 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('9', '10000', '2017-03-31 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('10', '10000', '2017-04-01 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('11', '10000', '2017-06-30 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
+INSERT INTO `schedule` VALUES ('12', '10000', '2017-07-01 00:00:00', '0', '0', '0', '0', '0', null, '0', '0');
 
 -- ----------------------------
--- Table structure for schedule_record
+-- Table structure for `schedule_record`
 -- ----------------------------
 DROP TABLE IF EXISTS `schedule_record`;
 CREATE TABLE `schedule_record` (
@@ -203,7 +206,7 @@ CREATE TABLE `schedule_record` (
 -- ----------------------------
 
 -- ----------------------------
--- Table structure for system_user
+-- Table structure for `system_user`
 -- ----------------------------
 DROP TABLE IF EXISTS `system_user`;
 CREATE TABLE `system_user` (
@@ -233,7 +236,7 @@ INSERT INTO `system_user` VALUES ('10025', 'fasdfasdf', 'b0baee9d279d34fa1dfd71a
 INSERT INTO `system_user` VALUES ('10026', 'seven', '7a51cb80555231fcdedd4588a7c44d0c', '751401459', '751401459@qq.com', '15626832124', '', '0', null, '1', '0', null, '2017-03-15 22:38:32');
 
 -- ----------------------------
--- Table structure for travel
+-- Table structure for `travel`
 -- ----------------------------
 DROP TABLE IF EXISTS `travel`;
 CREATE TABLE `travel` (
