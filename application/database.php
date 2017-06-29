@@ -20,7 +20,7 @@ return [
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => '1234',
+    'password'        => 'hello2016',
 //    'password'        => '1234',
     // 端口
     'hostport'        => '3306',

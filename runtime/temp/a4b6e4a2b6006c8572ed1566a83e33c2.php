@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./public/static/index/travel\list.html";i:1490856968;s:38:"./public/static/index/public\base.html";i:1491043071;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./public/static/index/travel\list.html";i:1494505862;s:38:"./public/static/index/public\base.html";i:1494505862;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>

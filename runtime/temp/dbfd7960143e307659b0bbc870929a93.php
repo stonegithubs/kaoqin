@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:48:"./public/static/admin/schedule\schedulelist.html";i:1491035252;s:44:"./public/static/admin/public\admin_base.html";i:1491035650;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:48:"./public/static/admin/schedule\schedulelist.html";i:1494505862;s:44:"./public/static/admin/public\admin_base.html";i:1494505862;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +42,12 @@
         height: 25px;
         border: 1px solid black;
         border-radius: 50%;
+    }
+    .model{
+        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        float: none;
     }
 </style>
 
@@ -207,7 +213,7 @@
     <div class="directory-info-row">
         <div class="row">
             <?php if(is_array($employees) || $employees instanceof \think\Collection || $employees instanceof \think\Paginator): $i = 0; $__LIST__ = $employees;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$employee): $mod = ($i % 2 );++$i;?>
-            <div class="col-md-6 col-sm-6" >
+            <div class="col-md-6 col-sm-6 " style="position: relative;vertical-align: top;display: inline-block;float: none;width: 49%;" >
                 <div class="panel">
                     <div class="panel-body">
                         <h4><?php echo $employee['name']; ?><span class="text-muted small">-<?php echo $employee['dName']; ?>-<?php echo $employee['position']; ?></span></h4>
@@ -389,6 +395,7 @@
 <script src="<?php echo PUB_PATH; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo PUB_PATH; ?>js/modernizr.min.js"></script>
 <script src="<?php echo PUB_PATH; ?>js/jquery.nicescroll.js"></script>
+<script src="<?php echo PUB_PATH; ?>js/jquery.validate.min.js"></script>
 
 <!--common scripts for all pages-->
 <script src="<?php echo PUB_PATH; ?>js/scripts.js"></script>
@@ -437,13 +444,104 @@
         })
     }
 
+
+
+
+    $('.str-length').mouseleave(function(){
+        var str = $(this).val();
+        var length = $(this).data('length');
+        if( str.length == 0 || str.length > length ){
+            $(this).parent().next('.error').html('至多'+length+'个字');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+    $('.required').mouseleave(function(){
+        var str = $(this).val();
+        if( str.length == 0  ){
+            $(this).parent().next('.error').html('必须填写该项!');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+
+
+
+    $('.phone').mouseleave(function(){
+        var phone = $(this).val();
+        if(!isPhoneNo(phone)){
+            $(this).parent().next('.error').html('手机号码不正确');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+
+
     //封装所有的提交表单
     $('#signUpFrom').submit(function(event){
         event.preventDefault();
+        var es = $('#signUpFrom').find('.error');
+        var rs = $('#signUpFrom').find('.required');
+        console.log(rs);
+        var flag = 0;
+        $.each(es,function(i,item){
+            if($(item).html() && $(item).html() !=  ''){
+                flag = 1;
+                return false;
+            }
+        })
+        $.each(rs,function(i,item){
+            if( $(item).val() ==  ''){
+                flag = 1;
+                $(item).parent().next('.error').html('必须填写该项!')
+            }else{
+                $(item).parent().next('.error').html('')
+            }
+        })
+        if(flag == 1){
+            alert('请确认一下你填写的内容！');
+            return;
+        }
         $(this).parents('.modal').modal('hide');
         var self = $('#signUpFrom');
         my_ajax(self);
     })
+
+
+    function isPhoneNo(phone) {
+        var pattern = /^1[34578]\d{9}$/;
+        return pattern.test(phone);
+    }
+
+    function isLength(str,length){
+        return str.length > length
+    }
+
+    function eachStr(strs){
+        $.each(strs,function(index,item){
+            var str = item.val();
+            var length = item.data('length');
+            if(!str || isLength(str,length) ){
+                return false;
+            }
+        })
+        return true;
+    }
+
+    function validate(self){
+        var phone = self.find('.phone').val();
+        var strs = self.find('.str_length');
+
+        if(!phone || !isPhoneNo(phone)){
+            return '手机号码格式不对';
+        }
+        if(strs && !eachStr(strs)){
+            return '手机号码格式不对';
+
+        }
+
+    }
+
 </script>
 
 <script type="text/javascript" src="<?php echo PUB_PATH; ?>js/jquery.validate.min.js"></script>
@@ -462,19 +560,45 @@
     var eIdInput = $('#addModal').find('[name=eId]');
     var nameInput = $('#addModal').find('#name');
     var timeInput = $('#addModal').find('[name=time]');
+    var day = [];
+     day[0] = $('#day1');
+    day[1] = $('#day2');
+    day[2] = $('#day3');
+    day[3] = $('#day4');
+    day[4] = $('#day5');
+    day[5] = $('#day6');
+    day[6] = $('#day7');
+     cout = <?php echo $week; ?>;
     $('.addThisWeek').on('click',function(){
         var eId = $(this).data('eid');
         var name = $(this).data('name');
+        var i =0;
         eIdInput.val(eId);
         nameInput.html(name);
         timeInput.val(1);
+        for(i =0;i<7 ;i++){
+            day[i].removeAttr("checked");
+            day[i].parent('div').removeClass("checked");
+        }
+        for(i =0;i<cout ;i++){
+            day[i].attr('disabled',true);
+        }
     })
     $('.addNextWeek').on('click',function(){
         var eId = $(this).data('eid');
         var name = $(this).data('name');
+        var i =0;
         eIdInput.val(eId);
         nameInput.html(name);
         timeInput.val(2);
+        for(i =0;i<7 ;i++){
+            day[i].removeAttr("checked");
+            day[i].parent('div').removeClass("checked");
+        }
+        for( i =0;i<cout ;i++){
+            day[i].attr('disabled',false);
+        }
+
     })
     $('.editSchedule').on('click',function(){
         var eId = $(this).data('eid');

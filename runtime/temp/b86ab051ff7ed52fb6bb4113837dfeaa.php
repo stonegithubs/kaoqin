@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./public/static/admin/schedule\index.html";i:1491035252;s:44:"./public/static/admin/public\admin_base.html";i:1491035650;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./public/static/admin/schedule\index.html";i:1494505862;s:44:"./public/static/admin/public\admin_base.html";i:1494505862;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,7 +179,7 @@
     <div class="directory-info-row">
         <div class="row">
             <?php if(is_array($employees) || $employees instanceof \think\Collection || $employees instanceof \think\Paginator): $i = 0; $__LIST__ = $employees;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$employee): $mod = ($i % 2 );++$i;?>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6" style="position: relative;vertical-align: top;display: inline-block;float: none;width: 49%;">
                     <div class="panel">
                         <div class="panel-body">
                             <h4><?php echo $employee['name']; ?><span class="text-muted small">-<?php echo $employee['dName']; ?>-<?php echo $employee['position']; ?></span></h4>
@@ -190,13 +190,21 @@
                                 <div class="media-body">
                                     <address>
                                         <?php if($employee['isSchedule'] == '0'): ?>
+
                                             <strong>今天无排班</strong>
-                                        <?php else: switch($employee['record']): case "value=0": ?>
+                                        <?php else: switch($employee['record']): case "0": if($employee['isTravel'] == '1'): ?>
+                                                    <strong>今天出差</strong>
+                                                <?php endif; if($employee['isLevel'] == '1'): ?>
+                                                    <strong>今天请假</strong>
+                                                <?php endif; ?>
                                                 <strong>今日未打卡</strong><br>
-                                            <?php break; case "value=1": ?>
-                                                <strong>上班打卡</strong><br>
-                                                上班时间：<?php echo $employee['morning']['addTime']; ?><br>
-                                            <?php break; case "value=2": ?>
+                                            <?php break; case "1": if($employee['morning']['type'] == '0'): ?>
+                                                    <strong>上班打卡</strong><br>
+                                                    上班时间：<?php echo $employee['morning']['addTime']; ?><br>
+                                                    <?php else: ?>
+                                                    <strong>下班打卡</strong><br>
+                                                    下班时间：<?php echo $employee['morning']['addTime']; ?><br>
+                                                <?php endif; break; case "2": ?>
                                                 <strong>下班打卡</strong><br>
                                                 上班时间：<?php echo $employee['morning']['addTime']; ?><br>
                                                 下班时间：<?php echo $employee['night']['addTime']; ?><br>
@@ -235,6 +243,7 @@
 <script src="<?php echo PUB_PATH; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo PUB_PATH; ?>js/modernizr.min.js"></script>
 <script src="<?php echo PUB_PATH; ?>js/jquery.nicescroll.js"></script>
+<script src="<?php echo PUB_PATH; ?>js/jquery.validate.min.js"></script>
 
 <!--common scripts for all pages-->
 <script src="<?php echo PUB_PATH; ?>js/scripts.js"></script>
@@ -283,13 +292,104 @@
         })
     }
 
+
+
+
+    $('.str-length').mouseleave(function(){
+        var str = $(this).val();
+        var length = $(this).data('length');
+        if( str.length == 0 || str.length > length ){
+            $(this).parent().next('.error').html('至多'+length+'个字');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+    $('.required').mouseleave(function(){
+        var str = $(this).val();
+        if( str.length == 0  ){
+            $(this).parent().next('.error').html('必须填写该项!');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+
+
+
+    $('.phone').mouseleave(function(){
+        var phone = $(this).val();
+        if(!isPhoneNo(phone)){
+            $(this).parent().next('.error').html('手机号码不正确');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+
+
     //封装所有的提交表单
     $('#signUpFrom').submit(function(event){
         event.preventDefault();
+        var es = $('#signUpFrom').find('.error');
+        var rs = $('#signUpFrom').find('.required');
+        console.log(rs);
+        var flag = 0;
+        $.each(es,function(i,item){
+            if($(item).html() && $(item).html() !=  ''){
+                flag = 1;
+                return false;
+            }
+        })
+        $.each(rs,function(i,item){
+            if( $(item).val() ==  ''){
+                flag = 1;
+                $(item).parent().next('.error').html('必须填写该项!')
+            }else{
+                $(item).parent().next('.error').html('')
+            }
+        })
+        if(flag == 1){
+            alert('请确认一下你填写的内容！');
+            return;
+        }
         $(this).parents('.modal').modal('hide');
         var self = $('#signUpFrom');
         my_ajax(self);
     })
+
+
+    function isPhoneNo(phone) {
+        var pattern = /^1[34578]\d{9}$/;
+        return pattern.test(phone);
+    }
+
+    function isLength(str,length){
+        return str.length > length
+    }
+
+    function eachStr(strs){
+        $.each(strs,function(index,item){
+            var str = item.val();
+            var length = item.data('length');
+            if(!str || isLength(str,length) ){
+                return false;
+            }
+        })
+        return true;
+    }
+
+    function validate(self){
+        var phone = self.find('.phone').val();
+        var strs = self.find('.str_length');
+
+        if(!phone || !isPhoneNo(phone)){
+            return '手机号码格式不对';
+        }
+        if(strs && !eachStr(strs)){
+            return '手机号码格式不对';
+
+        }
+
+    }
+
 </script>
 
 <script type="text/javascript" src="<?php echo PUB_PATH; ?>js/jquery.validate.min.js"></script>

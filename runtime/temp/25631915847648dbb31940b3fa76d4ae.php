@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./public/static/admin/login\index.html";i:1489546343;s:38:"./public/static/admin/public\base.html";i:1489546343;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./public/static/admin/login\index.html";i:1494505862;s:38:"./public/static/admin/public\base.html";i:1494505862;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

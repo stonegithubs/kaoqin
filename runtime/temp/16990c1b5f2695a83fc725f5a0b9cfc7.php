@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./public/static/admin/employee\index.html";i:1491035252;s:44:"./public/static/admin/public\admin_base.html";i:1491035650;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./public/static/admin/employee\index.html";i:1494505862;s:44:"./public/static/admin/public\admin_base.html";i:1494505862;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -230,25 +230,29 @@
                                             <input type="hidden" name="eId" id="hidden_id">
                                             <div class="form-group ">
                                                 <label for="name" class="control-label col-lg-2">员工姓名</label>
-                                                <div class="col-lg-8">
-                                                    <input class=" form-control" id="name" name="name" type="text" />
+                                                <div class="col-lg-6">
+                                                    <input class=" form-control str-length required" data-length="4" id="ename" name="name" type="text" />
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
+
                                             </div>
                                             <div class="form-group ">
                                                 <label for="position" class="control-label col-lg-2">职务</label>
-                                                <div class="col-lg-8">
-                                                    <input class=" form-control" id="position" name="position" type="text" />
+                                                <div class="col-lg-6">
+                                                    <input class=" form-control str-length required" data-length="4" id="position" name="position"  type="text" />
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group ">
                                                 <label for="tel" class="control-label col-lg-2">联系方式</label>
-                                                <div class="col-lg-8">
-                                                    <input class="form-control " id="tel" name="tel" type="text" />
+                                                <div class="col-lg-6">
+                                                    <input class="form-control phone required" id="tel" name="tel" type="text" placeholder="手机号"  />
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group ">
                                                 <label   class="control-label col-lg-2">部门</label>
-                                                <div class="col-lg-8">
+                                                <div class="col-lg-6">
                                                     <select name="dId" class="form-control m-bot15">
                                                         <option value="0">暂无部门</option>
                                                         <?php if(is_array($depts) || $depts instanceof \think\Collection || $depts instanceof \think\Paginator): $i = 0; $__LIST__ = $depts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$dept): $mod = ($i % 2 );++$i;?>
@@ -256,13 +260,15 @@
                                                         <?php endforeach; endif; else: echo "" ;endif; ?>
                                                     </select>
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label col-lg-2">入职时间</label>
                                                 <div class="col-lg-6 ">
-                                                    <input class="form-control form-control-inline input-medium default-date-picker" size="16" id="inTime" name="inTime" type="text" value="">
+                                                    <input class="form-control form-control-inline input-medium default-date-picker required" size="16" id="inTime" name="inTime" type="text" value="">
                                                     <span class="help-block">请选择一个日期</span>
                                                 </div>
+                                                <label class="col-lg-4 error"></label>
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-lg-offset-7 col-lg-10">
@@ -321,6 +327,7 @@
 <script src="<?php echo PUB_PATH; ?>js/bootstrap.min.js"></script>
 <script src="<?php echo PUB_PATH; ?>js/modernizr.min.js"></script>
 <script src="<?php echo PUB_PATH; ?>js/jquery.nicescroll.js"></script>
+<script src="<?php echo PUB_PATH; ?>js/jquery.validate.min.js"></script>
 
 <!--common scripts for all pages-->
 <script src="<?php echo PUB_PATH; ?>js/scripts.js"></script>
@@ -369,13 +376,104 @@
         })
     }
 
+
+
+
+    $('.str-length').mouseleave(function(){
+        var str = $(this).val();
+        var length = $(this).data('length');
+        if( str.length == 0 || str.length > length ){
+            $(this).parent().next('.error').html('至多'+length+'个字');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+    $('.required').mouseleave(function(){
+        var str = $(this).val();
+        if( str.length == 0  ){
+            $(this).parent().next('.error').html('必须填写该项!');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+
+
+
+    $('.phone').mouseleave(function(){
+        var phone = $(this).val();
+        if(!isPhoneNo(phone)){
+            $(this).parent().next('.error').html('手机号码不正确');
+        }else{
+            $(this).parent().next('.error').html('');
+        }
+    });
+
+
     //封装所有的提交表单
     $('#signUpFrom').submit(function(event){
         event.preventDefault();
+        var es = $('#signUpFrom').find('.error');
+        var rs = $('#signUpFrom').find('.required');
+        console.log(rs);
+        var flag = 0;
+        $.each(es,function(i,item){
+            if($(item).html() && $(item).html() !=  ''){
+                flag = 1;
+                return false;
+            }
+        })
+        $.each(rs,function(i,item){
+            if( $(item).val() ==  ''){
+                flag = 1;
+                $(item).parent().next('.error').html('必须填写该项!')
+            }else{
+                $(item).parent().next('.error').html('')
+            }
+        })
+        if(flag == 1){
+            alert('请确认一下你填写的内容！');
+            return;
+        }
         $(this).parents('.modal').modal('hide');
         var self = $('#signUpFrom');
         my_ajax(self);
     })
+
+
+    function isPhoneNo(phone) {
+        var pattern = /^1[34578]\d{9}$/;
+        return pattern.test(phone);
+    }
+
+    function isLength(str,length){
+        return str.length > length
+    }
+
+    function eachStr(strs){
+        $.each(strs,function(index,item){
+            var str = item.val();
+            var length = item.data('length');
+            if(!str || isLength(str,length) ){
+                return false;
+            }
+        })
+        return true;
+    }
+
+    function validate(self){
+        var phone = self.find('.phone').val();
+        var strs = self.find('.str_length');
+
+        if(!phone || !isPhoneNo(phone)){
+            return '手机号码格式不对';
+        }
+        if(strs && !eachStr(strs)){
+            return '手机号码格式不对';
+
+        }
+
+    }
+
 </script>
 
 <script type="text/javascript" src="<?php echo PUB_PATH; ?>js/jquery.validate.min.js"></script>
@@ -427,12 +525,12 @@
         var currData = $(obj).closest('tr').data();
         $('#model_title').html("修改信息");
         $('#sub_btn').html("修改");
-        $('#name').val(currData.name);
+        $('#ename').val(currData.name);
         $('#tel').val(currData.tel);
         $('#position').val(currData.position);
         $('#hidden_id').val(currData.id);
         $('#inTime').val(currData.intime)
-        $('#dId').val(currData.did);
+        $('[name=dId]').val(currData.did);
     }
 
     $('#addbtn').click(function(){
@@ -453,6 +551,9 @@
         }
     })
 
+    $('.ename').mouseleave(function(){
+        var phone = $(this).val();
+    });
 
 
 </script>
